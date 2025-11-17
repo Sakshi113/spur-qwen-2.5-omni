@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+
+# vim
+*~
+*.swp
+
+# matlab
+*.asv
+*.mat
+
+# python
+.venv
+*.nc
+*.npy
+*.pkl
+*.pyc
+*.egg-info
+dist
+docs/_apidoc
+docs/html
+
+# audio
+*.wav
+*.pkf
+*.flac
+
+# video
+*.webm
+*.mov
+*.mp4
+
+# gitlab ci folders
+env
+.cache
+
+
+# LC3 source code
+spatpy/data/lc3
+
+# cmake
+build
+
+# plots
+*.html

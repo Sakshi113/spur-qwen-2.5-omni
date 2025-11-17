@@ -1,0 +1,44 @@
+{
+    "kind": "brick",
+    "name": "find_x3_pro",
+    "height": 163.6,
+    "width": 74.0,
+    "depth": 8.26,
+    "mics": {
+        "order": {
+            "recording": [
+                "bottom",
+                "top",
+                "back"
+            ],
+            "comsol": [
+                "back",
+                "top",
+                "bottom"
+            ],
+            "matlab": [
+                "bottom",
+                "back",
+                "top"
+            ]
+        },
+        "anchor": "top_left",
+        "position": {
+            "bottom": [
+                25.0,
+                163.6,
+                4.1
+            ],
+            "top": [
+                62.2,
+                0.0,
+                3.6
+            ],
+            "back": [
+                47.5,
+                23.7,
+                9.7
+            ]
+        }
+    }
+}

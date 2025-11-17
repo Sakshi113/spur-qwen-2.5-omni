@@ -1,0 +1,15 @@
+[
+  {
+    "conversations": [
+      { "role": "system",
+        "text": "You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech." },
+      { "role": "human",
+        "text": "Describe the spatial sound events you hear: <audio>" },
+      { "role": "gpt",
+        "text": "I hear a male voice at front-left, footsteps receding, and HVAC noise from behind." }
+    ],
+    "audios": [
+      "/mnt/sandbox/fsaks/spatial_audio/data/L3DAS23_data/Task1/L3DAS23_Task1_train360/data/9026-282386-0010_A.wav"
+    ]
+  }
+]

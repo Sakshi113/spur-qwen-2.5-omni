@@ -1,0 +1,45 @@
+# examples/sft/omni_stage1_lora_spatial_final.yaml
+# Fine-tune the Qwen2.5-Omni audio tower using LoRA with explicit module paths.
+model_name_or_path: Qwen/Qwen2.5-Omni-7B
+template: qwen2_omni
+trust_remote_code: true
+flash_attn: fa2
+
+stage: sft
+do_train: true
+finetuning_type: lora
+
+# LoRA-specific parameters
+lora_rank: 16
+lora_alpha: 32
+lora_dropout: 0.05
+
+# --- KEY: Explicitly target all adaptable layers WITHIN the audio tower using their full paths ---
+# The PEFT backend used by llama-factory supports this wildcard syntax.
+lora_target:
+  - thinker.audio_tower.conv1
+  - thinker.audio_tower.conv2
+  - thinker.audio_tower.layers.*.self_attn.q_proj
+  - thinker.audio_tower.layers.*.self_attn.k_proj
+  - thinker.audio_tower.layers.*.self_attn.v_proj
+  - thinker.audio_tower.layers.*.self_attn.out_proj
+  - thinker.audio_tower.layers.*.fc1
+  - thinker.audio_tower.layers.*.fc2
+  - thinker.audio_tower.proj
+
+# data
+dataset_dir: ./data
+media_dir: ./data
+dataset: spatial_audio_sft
+cutoff_len: 3072
+
+# train
+output_dir: ./saves/omni_stage1_spatial_lora_final
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 1e-4
+num_train_epochs: 3
+bf16: true
+logging_steps: 1
+save_steps: 1
+report_to: "none"

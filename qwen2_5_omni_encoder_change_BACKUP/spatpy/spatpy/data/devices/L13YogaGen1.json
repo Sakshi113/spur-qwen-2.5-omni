@@ -1,0 +1,26 @@
+{
+    "kind": "stl",
+    "name": "L13YogaGen1",
+    "stl_file": "L13YogaGen1.stl",
+    "mics": {
+        "order": {
+            "fusion_log": [
+                "left",
+                "right"
+            ]
+        },
+        "anchor": "absolute",
+        "position": {
+            "right": [
+                0.0,
+                27.0,
+                0.0
+            ],
+            "left": [
+                0.0,
+                -27.0,
+                0.0
+            ]
+        }
+    }
+}

@@ -1,0 +1,25 @@
+# --- MODEL WEIGHTS / CHECKPOINTS ---
+*.safetensors
+*.bin
+*.ckpt
+*.pt
+*.pth
+checkpoint*/
+checkpoints/
+runs*/
+wandb/
+*.log
+*.egg-info/
+*.npy
+# Python cache
+__pycache__/
+*.pyc
+
+# Shell / temporary
+*.sh~
+*.swp
+saves/
+saves_only_500/
+saves_test/
+saves-old/
+wandb/

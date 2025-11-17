@@ -1,0 +1,41 @@
+image: $CI_REGISTRY/capture/acid_immersive:latest
+default:
+  tags:
+    - blitzen
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  GIT_SUBMODULE_STRATEGY: recursive
+
+cache:
+  paths:
+    - .cache/pip
+    - env/
+
+before_script:
+  - source ci_functions.sh
+  - configure_git
+  - setup_python_env
+
+test:
+  stage: test
+  script:
+    - run_tests
+    - build_docs
+
+release:
+  stage: deploy
+  script:
+    - push_to_devpi
+  rules:
+    - if: '$CI_COMMIT_MESSAGE =~ /\[release\]/'
+
+pages:
+  stage: deploy
+  script:
+    - publish_pages
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH

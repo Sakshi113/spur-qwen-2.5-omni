@@ -1,0 +1,116 @@
+[
+  {
+    "id": "fold4_room23_mix002_caption_q1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix002.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room23_mix002.mp4",
+    "caption": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Describe the scene using both the video and audio.\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing."
+      }
+    ],
+    "task-type": "Spatial AV Captioning",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix002_caption_q2",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix002.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room23_mix002.mp4",
+    "caption": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Caption the video, making sure to describe where sounds are coming from using spatial cues from the audio.\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing."
+      }
+    ],
+    "task-type": "Spatial AV Captioning",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix002_caption_q3",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix011.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix011.mp4",
+    "caption": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Caption the video, distinguishing between foreground and background sound sources based on what is seen and heard.\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing."
+      }
+    ],
+    "task-type": "Spatial AV Captioning",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix002_caption_q4",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix002.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room23_mix002.mp4",
+    "caption": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Describe how the people in the video react to different sounds, using spatial audio to inform where the sounds came from.\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing."
+      }
+    ],
+    "task-type": "Spatial AV Captioning",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix002_caption_q5",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix016.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix016.mp4",
+    "caption": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Caption the scene as it evolves over time, especially noting when and where new sounds appear based on the audio.\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing."
+      }
+    ],
+    "task-type": "Spatial AV Captioning",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix002_caption_q6",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix010.mp4",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix010.mp4",
+    "caption": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Generate a detailed caption where each sound is described with its approximate spatial direction and distance, as heard from the audio.\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing."
+      }
+    ],
+    "task-type": "Spatial AV Captioning",
+    "dataset": "STARSS23"
+  }
+]

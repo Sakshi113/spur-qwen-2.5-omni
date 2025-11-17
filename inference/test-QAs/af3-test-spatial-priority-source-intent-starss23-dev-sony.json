@@ -1,0 +1,1216 @@
+[
+  {
+    "id": "fold4_room23_mix002_1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix002.wav",
+    "caption": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, towards the end of the recording, when a particular human vocalization briefly emerges and overlaps with an ongoing conversation, what specific human sound does this new vocalization appear to acknowledge or respond to?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Male speech, man speaking"
+      }
+    ],
+    "reasoning": "The laughter (a specific human vocalization) from one person directly follows and overlaps with the male speech of another, suggesting it is a response or reaction to the spoken words. Both sound sources occupy a similar spatial area (front), making their temporal and interactive relationship the primary cue.",
+    "task-type": "Spatial Priority & Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix002_2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix002.wav",
+    "caption": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the initial portion of the audio, after a consistent rhythmic sound comes closer and then stops, which specific human vocalization then begins, seemingly in recognition of the presence indicated by the preceding sound?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Male speech, man speaking"
+      }
+    ],
+    "reasoning": "A person's footsteps (rhythmic sound) are heard approaching and then stopping. Shortly after, a man begins speaking (human vocalization). Given the temporal proximity and the common real-world scenario of speech acknowledging someone's arrival, the speech can be inferred as a response to the footsteps. The footsteps and first male speech originate from similar general directions (front/front-right).",
+    "task-type": "Spatial Priority & Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix010_Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix010.wav",
+    "caption": "A conversation unfolds with two speakers. A man's voice comes from the back-left, initially accompanied by his footsteps, at a not too far distance. A woman's voice is heard from the back-left and slightly below, at a close distance, often overlapping with the man. Both individuals occasionally share laughter.",
+    "duration": 72.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, after an extended period of lighthearted vocalizations, what type of conversational utterance immediately follows and overlaps with this expressive sound?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The conversational utterance that immediately follows and overlaps with the lighthearted vocalizations is male speech."
+      }
+    ],
+    "reasoning": "An extended period of laughter (identified as female laughter by its characteristics and perceived proximity) is heard. Immediately following and overlapping with this laughter, a male voice begins speaking. This male speech sounds like a direct conversational engagement or continuation prompted by the preceding laughter. Spatially, the laughter originates from a closer, slightly lower position (the woman), while the male speech comes from a slightly more distant, regular height (the man), yet they share the same general direction and interactive timing, indicating a response.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix010_Q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix010.wav",
+    "caption": "A conversation unfolds with two speakers. A man's voice comes from the back-left, initially accompanied by his footsteps, at a not too far distance. A woman's voice is heard from the back-left and slightly below, at a close distance, often overlapping with the man. Both individuals occasionally share laughter.",
+    "duration": 72.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, during periods when a specific voice initially associated with rhythmic percussive sounds is speaking, what kind of vocalization frequently interjects or speaks concurrently from the other participant?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The vocalization that frequently interjects or speaks concurrently from the other participant is female speech."
+      }
+    ],
+    "reasoning": "The male voice, identified by its initial association with distinct rhythmic footsteps, is often heard speaking. As he speaks, a female voice frequently overlaps or interjects. This female voice is perceived as closer and slightly lower in spatial origin than the male voice, indicating a direct, interactive dialogue where the female participant's speech consistently responds to or accompanies the male participant's utterances.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix010_Q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix010.wav",
+    "caption": "A conversation unfolds with two speakers. A man's voice comes from the back-left, initially accompanied by his footsteps, at a not too far distance. A woman's voice is heard from the back-left and slightly below, at a close distance, often overlapping with the man. Both individuals occasionally share laughter.",
+    "duration": 72.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, after a segment of continuous conversational dialogue, what distinct, non-verbal vocal expression immediately follows, signifying a clear reaction to the preceding utterance?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "A distinct burst of laughter immediately follows the segment of continuous conversational dialogue."
+      }
+    ],
+    "reasoning": "A period of continuous conversational dialogue (identified as female speech) is heard. Immediately after this speech, a burst of laughter occurs. This laughter (identified as male laughter) follows closely in time to the preceding conversational sound, indicating a responsive or amused reaction to what was said. Spatially, the laughter originates from a slightly more distant location and at a regular height compared to the preceding female speech, reinforcing that it's a reaction from a separate, interacting individual.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix016_q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix016.wav",
+    "caption": "Music emanates consistently from a loudspeaker too close back-left and far below. A man's voice, too close to close, speaks from the front-right throughout, occasionally overlapping with a woman's voice, who is close on the right. Both individuals burst into laughter and begin clapping around the 12:30 mark, creating a lively atmosphere.",
+    "duration": 79.8,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, just before the atmosphere becomes lively with multiple people joining in, which specific vocalization seems to elicit the initial outburst of laughter coming from the individual situated prominently towards the front?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Female speech, woman speaking"
+      }
+    ],
+    "reasoning": "The initial burst of laughter from the individual prominently towards the front (Male laughter from front-right) occurs at frame 671. This follows a distinct segment of female speech (from the right) at frame 653, which is the most proximate human vocalization prior to the laughter. The temporal proximity and the relative spatial positions of the female speech and subsequent male laughter imply a direct responsive interaction.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix016_q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix016.wav",
+    "caption": "Music emanates consistently from a loudspeaker too close back-left and far below. A man's voice, too close to close, speaks from the front-right throughout, occasionally overlapping with a woman's voice, who is close on the right. Both individuals burst into laughter and begin clapping around the 12:30 mark, creating a lively atmosphere.",
+    "duration": 79.8,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, following a prominent continuous vocal delivery from the individual positioned more towards the front of the scene, which other individual initiates their turn, seemingly in reply, from a distinct but adjacent area?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Female speech, woman speaking"
+      }
+    ],
+    "reasoning": "The male speaker (from the front-right) has a notable vocal segment from frames 12-27. Immediately after this concludes, the female speaker (from the right) begins her vocalization at frame 29. The clear sequential turn-taking and their closely positioned but distinct spatial origins suggest the female's speech is a conversational reply to the male's prior remarks.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix016_q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix016.wav",
+    "caption": "Music emanates consistently from a loudspeaker too close back-left and far below. A man's voice, too close to close, speaks from the front-right throughout, occasionally overlapping with a woman's voice, who is close on the right. Both individuals burst into laughter and begin clapping around the 12:30 mark, creating a lively atmosphere.",
+    "duration": 79.8,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, at one point where two distinct voices briefly share the soundstage, how does the more forward-positioned individual's vocalization relate to the ongoing discourse of the other, more right-side speaker?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Male speech, man speaking"
+      }
+    ],
+    "reasoning": "At frames 47-49, both male and female voices are simultaneously present. The female voice, located on the right, is already speaking (its segment started at frame 29 and continued into this overlap). The male voice, positioned more towards the front-right, begins speaking at frame 47, concurrently with the female's speech. This indicates the male's vocalization is joining or responding to the female's ongoing discourse through an interactive overlap.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "Q1_01",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix009.wav",
+    "caption": "A conversation unfolds with a woman speaking from behind, whose footsteps are heard early on, and a man speaking from the back-left, both at close to not too far distances. Throughout, close domestic sounds emanate from a loudspeaker located back-right, with the woman laughing briefly midway through the conversation.",
+    "duration": 77.5,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, early in the scene, after a series of distinct rhythmic impacts that suggest movement subside, a voice begins speaking from a position behind the listener. Later, a different voice, originating from a distinct and laterally offset point, begins to speak. What specific type of vocal sound source does this second speaker appear to be engaging with?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Female speech, woman speaking"
+      }
+    ],
+    "reasoning": "The initial rhythmic impacts are footsteps, followed by a speaking voice from behind. This corresponds to the woman's entrance and speech. Subsequently, another speaker, clearly from a different lateral direction (the man from back-left), begins speaking, often overlapping or interjecting, indicating a conversational engagement with the first speaker.",
+    "task-type": "Spatial Priority and Source Intent"
+  },
+  {
+    "id": "Q1_02",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix009.wav",
+    "caption": "A conversation unfolds with a woman speaking from behind, whose footsteps are heard early on, and a man speaking from the back-left, both at close to not too far distances. Throughout, close domestic sounds emanate from a loudspeaker located back-right, with the woman laughing briefly midway through the conversation.",
+    "duration": 77.5,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, midway through the scene, a brief non-verbal human vocalization is heard originating from one of the speaking individuals. What specific type of spoken human voice is associated with this non-verbal expression?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Male speech, man speaking"
+      }
+    ],
+    "reasoning": "The non-verbal human vocalization (laughter) occurs during the ongoing conversation. By listening, one can discern that this laughter originates from the same distinct acoustic location as the male speaking voice (back-left), confirming it is an expressive sound from that individual.",
+    "task-type": "Spatial Priority and Source Intent"
+  },
+  {
+    "id": "Q1_female_movement_ambient",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix011.wav",
+    "caption": "Footsteps and a man's voice are heard from the back-left. A woman's voice, initially from the back-left, shifts to back-right. Both converse, with laughter overlapping their speech around 0:35 and 0:53. Constant domestic sounds from the back-right complete the scene.",
+    "duration": 63.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, what kind of human vocalization is heard from the person whose voice demonstrates clear positional changes, particularly during the period when their sound source eventually co-locates with the persistent ambient sounds?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Female speech"
+      }
+    ],
+    "reasoning": "The female voice is initially heard from a distinct spatial location from the constant background domestic sounds. As the recording progresses, the female voice moves and aligns with the spatial position of these domestic sounds, and her vocalization continues from that converged location.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "Q2_male_conversational_response",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix011.wav",
+    "caption": "Footsteps and a man's voice are heard from the back-left. A woman's voice, initially from the back-left, shifts to back-right. Both converse, with laughter overlapping their speech around 0:35 and 0:53. Constant domestic sounds from the back-right complete the scene.",
+    "duration": 63.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, after a period where one person's voice and their accompanying footsteps are prominent, and then another distinct human voice enters the scene seemingly from the same area, what is the nature of the immediate vocalization from the first speaker?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Male speech"
+      }
+    ],
+    "reasoning": "Initially, the audio features male speech accompanied by footsteps. When a female voice subsequently joins the scene, sharing a similar initial spatial origin, the male speaker immediately continues with speech, indicating a direct conversational response to the female's entry and vocalization.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "Q3_female_conversational_response",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix011.wav",
+    "caption": "Footsteps and a man's voice are heard from the back-left. A woman's voice, initially from the back-left, shifts to back-right. Both converse, with laughter overlapping their speech around 0:35 and 0:53. Constant domestic sounds from the back-right complete the scene.",
+    "duration": 63.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Consider the main vocal exchange between the two individuals in the recording. After the male voice delivers a segment of speech, what type of human vocalization is often heard next from the other person, maintaining the flow of their discussion?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Female speech"
+      }
+    ],
+    "reasoning": "Throughout the audio, a conversational pattern is established between the male and female voices. After the male speaker contributes to the dialogue, the female voice is frequently heard taking her turn, indicating a direct response to the preceding male speech to continue their conversation.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix011_qa1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix011.wav",
+    "caption": "The scene is filled with continuous, too far domestic sounds from the front. A person's footsteps move from close to not too far, sometimes overlapping. Midway, a phone rings from not too far in front. Later, a man's speech from not too far front sporadically blends with the domestic ambiance and footsteps.",
+    "duration": 115.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, after a distinct, ringing signal ceases from a noticeable front location, what auditory event does the following human voice, originating from a very similar general area, seem to be directly reacting to?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The male speech is responding to the Telephone."
+      }
+    ],
+    "reasoning": "The distinct, intermittent ringing sound (Telephone) occurs midway through the audio from a 'not too far front' location. Immediately after this ringing ceases, a male voice begins speaking from a spatially congruent area in the front, indicating a direct response or acknowledgment to the prior ringing sound. While other ambient domestic sounds are continuous and footsteps are present, the clear temporal adjacency and shared general location strongly link the human voice to the telephone event.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix011_qa2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix011.wav",
+    "caption": "The scene is filled with continuous, too far domestic sounds from the front. A person's footsteps move from close to not too far, sometimes overlapping. Midway, a phone rings from not too far in front. Later, a man's speech from not too far front sporadically blends with the domestic ambiance and footsteps.",
+    "duration": 115.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, a human voice is heard. What other intermittent sound, perceived as changing its proximity and originating from a generally lower position, does this voice often occur alongside?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The male speech often occurs alongside Walk, footsteps."
+      }
+    ],
+    "reasoning": "The human voice (male speech) is sporadically present throughout the latter half of the audio. During these periods, an intermittent sound characterized by distinct, rhythmic impacts (footsteps) is also clearly audible. These footsteps are perceived to change in their relative distance and direction, and are consistently heard from a lower spatial plane, contrasting with the more continuous background ambient sounds. The temporal overlap and shared close-to-mid frontal space indicate the speech is occurring in the same general environment as the moving individual generating the footsteps.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix015_Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix015.wav",
+    "caption": "Distant knocks and a door opening, too far away from behind, begin the scene. A man speaks from the back-left, close by, conversing with a woman on the back-right, also close. Their voices frequently overlap, notably around 0:14, 0:27, 0:31, and from 0:38 onwards.",
+    "duration": 72.8,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, following the brief, distant ambient sounds, a male voice and a female voice engage in a conversation. When the female voice is speaking, which distinct, nearby vocal presence is she primarily exchanging remarks with?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The female voice is primarily exchanging remarks with the male voice."
+      }
+    ],
+    "reasoning": "The audio clearly presents two distinct human speech sources, a male voice positioned to the back-left and a female voice to the back-right, both relatively close to the listener. After the initial distant background noises (knocks and a door), these two voices engage in a continuous conversational flow. The female voice's speech often follows or overlaps with the male voice's speech, indicating a direct back-and-forth exchange between them. Her speech patterns and timing suggest she is addressing or responding to the male voice, which is the only other consistent, nearby vocal presence in the scene.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix015_Q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix015.wav",
+    "caption": "Distant knocks and a door opening, too far away from behind, begin the scene. A man speaks from the back-left, close by, conversing with a woman on the back-right, also close. Their voices frequently overlap, notably around 0:14, 0:27, 0:31, and from 0:38 onwards.",
+    "duration": 72.8,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, particularly after the sequence of faint, rhythmic thuds, a male voice and a female voice are clearly heard. During moments when both voices are speaking simultaneously, what is the apparent relationship between the male voice and the *other* nearby, concurrent vocal sound?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "During simultaneous speech, the male voice and the other nearby vocal sound (the female voice) appear to be engaged in conversational overlap or interjection, indicating a direct, concurrent dialogue."
+      }
+    ],
+    "reasoning": "The male and female voices are spatially distinct and appear to be in close proximity to the listener but separated from each other. When they speak simultaneously, as noted in the caption, their temporal alignment and distinct spatial origins strongly indicate that they are not just coincidentally speaking, but rather actively participating in a shared dialogue, often speaking over or interrupting each other in a conversational manner. The 'other nearby, concurrent vocal sound' is the female speech, with which the male speech forms a conversational overlap.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix008_Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix008.wav",
+    "caption": "A water tap runs from a not-too-far distance behind. Around 43 seconds, music starts from a close loudspeaker, front-right and far below. Towards the end, a woman's voice from behind, and then a man's voice from the back-left, both close, briefly overlap with the music.",
+    "duration": 97.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, after a new distinct rhythmic pattern begins from a localized, low forward point, a human voice becomes audible from a location directly behind the listener. Considering the overall soundscape, which of the two continuous background elements (the initial steady flow or the new rhythmic sound) does this voice seem most closely aligned with in time and context?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The human voice seems most closely aligned with the new rhythmic sound."
+      }
+    ],
+    "reasoning": "The 'new rhythmic sound' is the music, which begins around 43 seconds and is located front-right and far below. The 'human voice' is the female speech, which starts later from behind the listener. Although spatially distinct, the female speech directly overlaps with the music, as stated in the caption. The water tap, or 'initial steady flow,' is continuous throughout but does not show a specific temporal or contextual alignment with the emerging speech beyond general background presence.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix008_Q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix008.wav",
+    "caption": "A water tap runs from a not-too-far distance behind. Around 43 seconds, music starts from a close loudspeaker, front-right and far below. Towards the end, a woman's voice from behind, and then a man's voice from the back-left, both close, briefly overlap with the music.",
+    "duration": 97.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the latter portion of the audio, following the introduction of a new, prominent melodic background from a forward direction, a male voice enters from a rear-left position. To which of the persistent ambient sounds (the continuous distant wash or the recently introduced melodic pattern) does this male voice appear to be temporally linked, implying a concurrent presence in the auditory scene?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The male voice appears to be temporally linked to the recently introduced melodic pattern."
+      }
+    ],
+    "reasoning": "The 'recently introduced melodic pattern' refers to the music, which plays from a forward, low position. The male voice is heard entering from a 'rear-left position' and, according to the caption, briefly overlaps with the music. This temporal overlap, despite distinct spatial origins, indicates a primary auditory interaction between the male speech and the music rather than the continuously present, less dynamic 'continuous distant wash' (water tap).",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix014_qa1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix014.wav",
+    "caption": "Throughout the recording, music plays from a loudspeaker, located close by behind you and to the right. Domestic sounds are heard from a nearby source front-left. Sporadically, laughter and male speech emerge from directly in front, originating from two distinct individuals at a distance that's not too far.",
+    "duration": 120.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, while a persistent musical background plays, a speaker is heard conversing from a particular area. What distinct, sharp, and intermittent sound, originating from a nearby point within that same general area, seems to have a direct interplay with the speaker's vocalizations?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Clapping"
+      }
+    ],
+    "reasoning": "The male speech is perceived as coming from the front. Concurrently, a distinct, sharp, and intermittent clapping sound is heard from a nearby, yet distinct, point within the same frontal region. This indicates an interaction or shared activity between the speaker and the source of the clapping, requiring the listener to spatially group these sounds while differentiating them from other background elements.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix014_qa2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix014.wav",
+    "caption": "Throughout the recording, music plays from a loudspeaker, located close by behind you and to the right. Domestic sounds are heard from a nearby source front-left. Sporadically, laughter and male speech emerge from directly in front, originating from two distinct individuals at a distance that's not too far.",
+    "duration": 120.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, what non-musical sound from a nearby, but clearly separate, area does a speaker's voice briefly accompany or seem to respond to?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Domestic sounds"
+      }
+    ],
+    "reasoning": "The male speech originates from the frontal area, while the domestic sounds are consistently heard from a distinctly different location, specifically the front-left. The speaker's voice clearly co-occurs with and appears to respond to or acknowledge the presence of these domestic sounds, necessitating the listener to spatially differentiate the sources.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix014_qa3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix014.wav",
+    "caption": "Throughout the recording, music plays from a loudspeaker, located close by behind you and to the right. Domestic sounds are heard from a nearby source front-left. Sporadically, laughter and male speech emerge from directly in front, originating from two distinct individuals at a distance that's not too far.",
+    "duration": 120.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, when two individuals are conversing from a shared general area, what vocal output from one of them is closely followed or significantly overlapped by the speech of the other?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Male speech, man speaking"
+      }
+    ],
+    "reasoning": "Throughout segments of the audio, male speech from two distinct individuals is present simultaneously or in close succession within the same frontal spatial region. The question requires the listener to distinguish between these two specific speech sources (voices) and identify their interactive temporal relationship, despite their shared general location.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix010.wav",
+    "caption": "Ambient domestic sounds persist from a close, front-left device. Around 0:12, a knock and door sounds from a not too far device right overlap. A person's footsteps move from too far to close right. Midway, two men converse: one from not too far front-left, the other from close right.",
+    "duration": 71.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, a voice starts speaking following a noticeable sequence of sounds suggesting an individual's approach and entry into the space. What type of sound events, which distinctly marked this individual's presence, did the voice respond to?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The voice responds to the distinct sounds of a knock, a door opening/closing, and footsteps."
+      }
+    ],
+    "reasoning": "The first male speech occurs at approximately 0:64. Prior to this, around 0:12, a knock is heard, followed by a door opening and closing around 0:20, and then footsteps moving closer from about 0:31. All these sounds originate from the right side, while the initial male speech comes from the front-left, indicating a response to the arrival and movement of the individual from the right.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "Q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix010.wav",
+    "caption": "Ambient domestic sounds persist from a close, front-left device. Around 0:12, a knock and door sounds from a not too far device right overlap. A person's footsteps move from too far to close right. Midway, two men converse: one from not too far front-left, the other from close right.",
+    "duration": 71.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, following an initial period of continuous ambient sound, a voice begins to speak. Shortly after, another voice responds, and the spatial location of this second voice suggests it belongs to an individual whose distinct movements were heard earlier. What type of sound indicated the prior movement of this second speaker?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The prior movement of the second speaker was indicated by footsteps."
+      }
+    ],
+    "reasoning": "The second male speech (from the right) begins around 0:68, conversing with the first male speech (from front-left). Before the conversation, between 0:31 and 0:53, distinct footsteps are heard moving from a distance towards the right side. The second speaker's voice is then heard from this same general spatial area, linking their presence to the earlier footsteps.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "Q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix010.wav",
+    "caption": "Ambient domestic sounds persist from a close, front-left device. Around 0:12, a knock and door sounds from a not too far device right overlap. A person's footsteps move from too far to close right. Midway, two men converse: one from not too far front-left, the other from close right.",
+    "duration": 71.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, while a conversation unfolds, a consistent, ambient sound remains present throughout the scene. How does the spatial origin of this continuous background sound compare to the spatial origin of the first voice heard in the conversation?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The consistent background sound originates from the same general spatial area as the first voice in the conversation."
+      }
+    ],
+    "reasoning": "The continuous 'Domestic sounds' are present throughout the audio and are located at the front-left. The first 'Male speech, man speaking' also originates from the front-left. This indicates that these two sound sources share the same general spatial origin.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix003_qa1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix003.wav",
+    "caption": "Music and domestic sounds emanate from a close front-left and distant front-right and slightly below. Two men are conversing, both speaking from the not too far front, with their voices occasionally overlapping throughout the continuous domestic ambience.",
+    "duration": 42.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Q1_ID_1: Based on the audio, observe the ongoing dialogue. Which of the non-speech sounds, perceived as closest to the listener, consistently forms the sonic backdrop for the speaker whose voice seems to be slightly more prominent due to proximity?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The domestic sounds."
+      }
+    ],
+    "reasoning": "The domestic sounds are consistently present throughout the audio and are perceived as being the most proximate non-speech source. The male speaker whose voice is heard with a slightly more prominent presence, indicative of being closer to the listener (Actor 2), is consistently heard in the presence of this continuous domestic ambience.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix003_qa2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix003.wav",
+    "caption": "Music and domestic sounds emanate from a close front-left and distant front-right and slightly below. Two men are conversing, both speaking from the not too far front, with their voices occasionally overlapping throughout the continuous domestic ambience.",
+    "duration": 42.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Q2_ID_2: Considering the two male voices, after one of the speakers concludes a longer utterance, which persistent non-speech sound, originating from a perceptibly different and further location compared to the continuous domestic sounds, is heard more distinctly?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The music."
+      }
+    ],
+    "reasoning": "After a longer utterance from one of the male speakers, the background music becomes more distinctly audible. This is because, through listening, the music is perceived as coming from a more distant and separate spatial location compared to the nearer and continuous domestic sounds, thus it gains clarity when the foreground speech momentarily diminishes.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "Q1_ID_008",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix008.wav",
+    "caption": "A continuous music source plays from a close distance behind and below. Intermittently, a water tap can be heard from the back-right, not too far away, particularly early on, and then again from around 1:46, and from 5:36.",
+    "duration": 53.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, when the brief, splashing sound emerges intermittently, how does its perceived location relate to the continuously playing background sound?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The brief, splashing sound (Water tap, faucet) is perceived from a different, farther location to the listener's back-right, while the continuous background sound (Music) remains closer and from behind and below."
+      }
+    ],
+    "reasoning": "The audio clearly presents two distinct non-speech sound sources. The 'Music' is continuous and has a constant, closer spatial signature from behind and below. The 'Water tap, faucet' is intermittent and appears from a different, farther direction (back-right). The listener can discern these separate spatial points and the temporal characteristic of each source, indicating distinct origins.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "Q2_ID_008",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix008.wav",
+    "caption": "A continuous music source plays from a close distance behind and below. Intermittently, a water tap can be heard from the back-right, not too far away, particularly early on, and then again from around 1:46, and from 5:36.",
+    "duration": 53.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, when the brief, percussive liquid sound becomes audible, what persistent, softer sound accompanies it from a notably closer and different spatial direction?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "When the brief, percussive liquid sound (Water tap, faucet) is audible, it is accompanied by the continuous softer sound (Music), which originates from a closer position behind and below, distinct from the liquid sound's back-right source."
+      }
+    ],
+    "reasoning": "The audio features an intermittent, brief liquid sound that has a distinct spatial origin. Simultaneously, there's a constant, gentler musical sound emanating from a separate, closer spatial location. The temporal overlap and spatial separation are key to differentiating and linking these two non-speech elements.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix001_1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix001.wav",
+    "caption": "Throughout the recording, music from a distant loudspeaker in front sets the background for a casual conversation. A man's voice is heard too close on the front-right, occasionally moving closer and slightly to the front-left, while a second man speaks from further away in front. Footsteps are heard from the first speaker early on, and midway through, both men's voices overlap, with the second speaker's laughter also heard.",
+    "duration": 60.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, towards the middle of the recording when the conversation involves two male voices, the man whose voice is perceived as generally closer to the listener engages in a dialogue. Which specific type of human vocalization from the other man's voice does this closer man's speech appear to overlap with or respond to, immediately preceding or during that overlap?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The closer man's speech overlaps with and appears to respond to the laughter of the other male vocal source."
+      }
+    ],
+    "reasoning": "The caption states that 'midway through, both men's voices overlap, with the second speaker's laughter also heard.' By listening to the relative distances and the temporal overlap of the two male voices, it can be discerned that the speech of the closer man (Male speech, man speaking) interacts with the Laughter originating from the more distant male voice (Male speech, man speaking, who also produces Laughter), indicating a direct conversational response.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix001_2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix001.wav",
+    "caption": "Throughout the recording, music from a distant loudspeaker in front sets the background for a casual conversation. A man's voice is heard too close on the front-right, occasionally moving closer and slightly to the front-left, while a second man speaks from further away in front. Footsteps are heard from the first speaker early on, and midway through, both men's voices overlap, with the second speaker's laughter also heard.",
+    "duration": 60.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the early part of the recording, a series of brief, repetitive low-frequency sounds can be heard before a man begins speaking more prominently. What type of human-produced sound is this preceding action, and is it associated with the man who later seems to move and whose voice is generally perceived as closer, or the man whose voice is consistently further away?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The preceding action is Walk, footsteps, and it is associated with the man whose voice is generally perceived as closer to the listener and who later appears to move."
+      }
+    ],
+    "reasoning": "The caption explicitly states, 'Footsteps are heard from the first speaker early on,' and further clarifies that this 'first speaker' is 'a man's voice is heard too close on the front-right, occasionally moving closer and slightly to the front-left.' Listening to the initial sounds confirms the presence of Walk, footsteps, and their spatial and temporal association with the closer, moving male speaker (Male speech, man speaking).",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix001_3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix001.wav",
+    "caption": "Throughout the recording, music from a distant loudspeaker in front sets the background for a casual conversation. A man's voice is heard too close on the front-right, occasionally moving closer and slightly to the front-left, while a second man speaks from further away in front. Footsteps are heard from the first speaker early on, and midway through, both men's voices overlap, with the second speaker's laughter also heard.",
+    "duration": 60.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "From the very start of the audio, a continuous, melodic ambient sound establishes the scene. When the two men begin their conversation, does this ambient sound fully cease, fade out noticeably, or continue as a persistent background element throughout their dialogue?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The continuous, melodic ambient sound (Music) continues as a persistent background element throughout their dialogue."
+      }
+    ],
+    "reasoning": "The caption clearly states, 'Throughout the recording, music from a distant loudspeaker in front sets the background for a casual conversation.' Auditory perception confirms that the Music remains present and consistent throughout the entire recording, serving as continuous background ambience without significant changes in volume or cessation during the conversation between the two male speakers (Male speech, man speaking).",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix006_Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix006.wav",
+    "caption": "A dynamic conversation unfolds with a man's voice originating from the back-left, at a close to not too far distance. A woman's voice joins from the back-left, sometimes moving to the front, and they frequently overlap. Laughter also emanates from both individuals. Later, a telephone rings from the front-left, with the woman answering, accompanied by faint footsteps.",
+    "duration": 141.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, following the continuous, high-pitched alerting sound, which human sound sources respond, indicating an interaction with that signal, including any associated movement?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Female speech, woman speaking, and Walk, footsteps."
+      }
+    ],
+    "reasoning": "The 'continuous, high-pitched alerting sound' is the Telephone. The female voice and accompanying footsteps are heard interacting directly with this sound. Initially, the woman's speech is heard from a different area than the phone's origin. As she responds and answers, her speech source shifts its perceived spatial location towards the general area of the telephone, aligning with its position, while the faint 'walk, footsteps' provide acoustic evidence of her movement to that new, closer location.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix006_Q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix006.wav",
+    "caption": "A dynamic conversation unfolds with a man's voice originating from the back-left, at a close to not too far distance. A woman's voice joins from the back-left, sometimes moving to the front, and they frequently overlap. Laughter also emanates from both individuals. Later, a telephone rings from the front-left, with the woman answering, accompanied by faint footsteps.",
+    "duration": 141.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "During the ongoing verbal exchange, when one of the conversing individuals emits a short, joyful burst, what kind of human vocalization from the other speaker often coincides with or closely follows it, maintaining the shared interaction?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Male speech, man speaking."
+      }
+    ],
+    "reasoning": "Several instances in the audio feature laughter from one of the participants (the woman) being directly followed or overlapped by speech from the other (the man). This temporal and spatial synchronicity suggests a natural conversational turn or shared emotional response, with both voices maintaining their general relative positions within the primary conversation area.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix006_1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix006.wav",
+    "caption": "A consistent domestic sound, likely a vacuum cleaner, plays continuously, mostly not too far in front. A bell rings from the right early on. Two men converse, one voice not too far in front, the other closer. Midway, front-right footsteps and laughter accompany their conversation.",
+    "duration": 104.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, after a sharp, brief signaling sound concludes on one side of the listening field early in the scene, which specific human voice then begins speaking very shortly after, seemingly from that same general vicinity?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The male speech (Actor 2)"
+      }
+    ],
+    "reasoning": "The distinct bell sound rings from the right side and concludes around frame 98. Male speech (Actor 2) then immediately begins at frame 100, also originating from the right. This close temporal succession and shared general direction (right) strongly suggest the male speech is a direct response to the bell.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix006_2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix006.wav",
+    "caption": "A consistent domestic sound, likely a vacuum cleaner, plays continuously, mostly not too far in front. A bell rings from the right early on. Two men converse, one voice not too far in front, the other closer. Midway, front-right footsteps and laughter accompany their conversation.",
+    "duration": 104.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Midway through the audio, when one of the male voices expresses amusement with distinct mirth, what other human voice, perceived as notably closer, appears to be prompting this amused reaction?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The male speech (Actor 2)"
+      }
+    ],
+    "reasoning": "The laughter (from Actor 1, perceived as the more distant male voice) immediately follows and overlaps with the ongoing male speech from Actor 2, who is consistently perceived as the closer male voice. The temporal overlap and spatial proximity of their voices, with one being clearly closer, strongly suggest the laughter is a direct social response to the closer speaker's conversation.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix013.wav",
+    "caption": "Music from a close, front-right loudspeaker plays throughout. A bell from a not too far loudspeaker on the right rings intermittently. Around 0:48, a man's voice speaks from the too far front, followed by his laughter around 0:54, both over the continuous music.",
+    "duration": 60.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, immediately following a recurring, non-musical series of tones, a male voice begins to speak. What sound source does this initial vocalization appear to be in direct response to?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The initial vocalization of male speech appears to be in direct response to the intermittent bell sound."
+      }
+    ],
+    "reasoning": "The intermittent bell sound, referred to as the 'recurring, non-musical series of tones', ceases at 0:48, precisely as the male speech begins. This immediate temporal proximity, despite their different spatial origins (bell from the right, speech from the front), strongly suggests the male speech is a direct reaction to the conclusion of the bell's ringing, rather than simply speaking over the continuous music.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix004_Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix004.wav",
+    "caption": "Music plays from front-left (too far) and front-right (close) in a domestic setting. Two men converse; one speaks from the front (not too far), the other front (too close), occasionally overlapping. A knock is heard right (not too far) early on, followed by footsteps from the front-right (too close) and laughter midway through.",
+    "duration": 102.2,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, after a new moving presence is heard joining the scene and begins to vocalize, which of the two primary conversational voices, who is typically located further away, then clearly responds?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The male speech from the voice typically located further away then clearly responds."
+      }
+    ],
+    "reasoning": "The audio features a sequence where distinct footsteps (Walk, footsteps) from a new, approaching source coincide with one male voice (Actor 2) beginning to speak (Male speech, man speaking). This new vocalization and movement are distinct from the other ongoing sounds. Following this arrival and initial vocalization, the male voice (Actor 1) which is generally perceived as being at a more distant, 'not too far' position relative to the other speaker, begins to speak. This suggests Actor 1's speech is a direct response to Actor 2's entry and initial verbalization.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix004_Q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix004.wav",
+    "caption": "Music plays from front-left (too far) and front-right (close) in a domestic setting. Two men converse; one speaks from the front (not too far), the other front (too close), occasionally overlapping. A knock is heard right (not too far) early on, followed by footsteps from the front-right (too close) and laughter midway through.",
+    "duration": 102.2,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, after the conversational voice typically heard from a more distant position concludes its utterance, what does the other, generally closer voice, then proceed to do?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The generally closer male speech immediately proceeds to speak, briefly overlapping the previous utterance."
+      }
+    ],
+    "reasoning": "There is a moment (around frame 118-119) where the voice typically associated with a 'not too far' distance (Actor 1) ends its speech. Immediately following this, the voice generally characterized as 'too close' (Actor 2) begins to speak, indicating a direct conversational turn or response. Their distinct spatial characteristics help differentiate who is speaking when.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix004_Q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix004.wav",
+    "caption": "Music plays from front-left (too far) and front-right (close) in a domestic setting. Two men converse; one speaks from the front (not too far), the other front (too close), occasionally overlapping. A knock is heard right (not too far) early on, followed by footsteps from the front-right (too close) and laughter midway through.",
+    "duration": 102.2,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, following a distinctive sharp sound and a subsequent mechanical movement of an entry point, what is the initial reaction expressed by one of the male voices present in the domestic setting?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "One of the male speech voices begins to speak."
+      }
+    ],
+    "reasoning": "Early in the audio, a 'Knock' is heard, followed by a 'Door, open or close' sound. Shortly after this sequence, one of the male voices (Actor 1) begins to speak. This temporal and causal relationship implies the speech is an initial reaction to the sounds of someone arriving or interacting with an entrance.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix012_Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix012.wav",
+    "caption": "A woman speaks close front-right, while a man's voice is close back-left, occasionally overlapping. Domestic sounds are prominent, shifting from not too far front-right to closer, often accompanying the speech. Later, footsteps are heard from behind and left, with a telephone ringing, not too far back-left.",
+    "duration": 156.8,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, after a persistent, distant, high-pitched ringing begins, which distinct human voice appears to acknowledge or respond to it from a different area of the listening space?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The male voice is the one that responds to the ringing sound."
+      }
+    ],
+    "reasoning": "A persistent, distant, high-pitched ringing sound (Telephone) is first heard from the back-right of the listening space. Immediately following its clear onset, a male voice (Male speech, man speaking) begins to speak from the back-left, implying a response to the ringing from a distinct, separate location within the room.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix003_q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix003.wav",
+    "caption": "A domestic scene features a woman speaking closely right and a man speaking from a close distance back-left. Their speech often overlaps with domestic background sounds from a front-left non-human source. Occasional distant knocks, door sounds, and a frequent front-left bell are heard.",
+    "duration": 97.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, notice a specific, high-frequency, continuous sound that periodically enters the scene. Which human voice, originating from a different distant point, seems to be actively speaking *during* segments of this recurring sound?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The male voice."
+      }
+    ],
+    "reasoning": "The 'high-frequency, continuous sound that periodically enters the scene' refers to the 'Bell'. The male voice, originating from a distinct spatial point (back-left compared to the bell's front-left), is frequently heard speaking concurrently and overlapping with the bell's ringing throughout the audio, indicating active interaction.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix003_q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix003.wav",
+    "caption": "A domestic scene features a woman speaking closely right and a man speaking from a close distance back-left. Their speech often overlaps with domestic background sounds from a front-left non-human source. Occasional distant knocks, door sounds, and a frequent front-left bell are heard.",
+    "duration": 97.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, following a few sharp, distinct impacts from a remote background area, which of the main speaking voices initiates dialogue shortly thereafter?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The woman's voice."
+      }
+    ],
+    "reasoning": "The 'sharp, distinct impacts from a remote background area' refers to the 'Knock' sound (from the back). Immediately after these knocks conclude, the woman's voice (located closely right) begins speaking. This timing suggests a direct response or acknowledgment of the preceding sound event, despite the spatial separation of the sources.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix012_Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix012.wav",
+    "caption": "A domestic scene features continuous sounds from a front device, varying in distance. Intermittent footsteps from a person are heard not too far in front. From 1:12, a man speaks, not too far ahead, often overlapping. Midway, a front telephone rings from varied distances, blending in.",
+    "duration": 95.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, after a prominent, repetitive alert sound ceases, what type of vocalization begins very shortly thereafter, appearing from a generally similar frontal area?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Male speech, man speaking."
+      }
+    ],
+    "reasoning": "The prominent, repetitive alert sound is the telephone ringing, which stops around frame 702. The male speech begins very shortly after, at frame 708, from a similar general frontal direction as the telephone was perceived. This clear temporal sequence and shared spatial context strongly suggest the speech is a direct response to the cessation of the alert.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix012_Q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix012.wav",
+    "caption": "A domestic scene features continuous sounds from a front device, varying in distance. Intermittent footsteps from a person are heard not too far in front. From 1:12, a man speaks, not too far ahead, often overlapping. Midway, a front telephone rings from varied distances, blending in.",
+    "duration": 95.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, consider the brief series of low, percussive sounds that occurs just before the 0:79 mark. What type of vocalization immediately follows this sequence, and from which general spatial location does it seem to arise?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Male speech, man speaking."
+      }
+    ],
+    "reasoning": "The brief series of low, percussive sounds are the footsteps, which are last heard around frame 789. The male speech begins immediately following this at frame 790. Both the footsteps and the speech are perceived from a general front area, with the speech appearing from a slightly more distant, yet still frontal, position, indicating a potential interaction or awareness of the person's movement.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix004_q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix004.wav",
+    "caption": "Domestic sounds emanate from close to the front-left. A man's voice and laughter come from close to the front-right. A woman speaks and laughs from too close behind, sometimes overlapping with the man. Knocks are heard, too far from the back and close from the front-left, with a door opening/closing midway, also from the back and front-left.",
+    "duration": 95.1,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, after a bout of laughter from one individual commences, another distinct laughter is heard, seemingly in reaction. What sound source is the second laughter primarily responding to?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Laughter"
+      }
+    ],
+    "reasoning": "The male laughter begins first (around the 19-second mark). A few moments later, a distinct female laughter starts, overlapping with and joining the ongoing male laughter. Despite their different spatial origins (male from front-right, female from behind), the temporal overlap and sequential onset suggest the female laughter is a response to the male laughter.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix004_q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix004.wav",
+    "caption": "Domestic sounds emanate from close to the front-left. A man's voice and laughter come from close to the front-right. A woman speaks and laughs from too close behind, sometimes overlapping with the man. Knocks are heard, too far from the back and close from the front-left, with a door opening/closing midway, also from the back and front-left.",
+    "duration": 95.1,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, after one person's speaking concludes, another individual immediately picks up the conversation from a distinctly different area. Which specific sound source is heard speaking next, continuing the exchange?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Male speech, man speaking"
+      }
+    ],
+    "reasoning": "Around the 12.5-second mark, a female voice (originating from behind) finishes speaking. Immediately following this, a male voice (from the front-right) begins to speak. This immediate turn-taking, coupled with the clear shift in the perceived spatial origin of the voice, indicates that the male speech is a direct response to the preceding female speech.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix005.wav",
+    "caption": "Ambient music emanates from a close loudspeaker, front-right. A woman's voice is heard from the back-left (close), while a man's voice shifts from too close front to back-left (close). Their conversation, punctuated by laughter, overlays the music throughout. Later, around 1:35, a telephone rings from the front.",
+    "duration": 137.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, after a clear, repeating signal begins from a specific forward direction, which of the speaking voices subsequently shifts their location to the immediate vicinity where that signal originated?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Male speech"
+      }
+    ],
+    "reasoning": "The distinct, repeating signal is the telephone ringing, which originates from the front. The male speaker's voice, initially heard primarily from the back-left during the conversation, later shifts its perceived spatial position to a very close-front location, indicating a direct spatial response by moving towards the source of the telephone ring.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "Q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix005.wav",
+    "caption": "Ambient music emanates from a close loudspeaker, front-right. A woman's voice is heard from the back-left (close), while a man's voice shifts from too close front to back-left (close). Their conversation, punctuated by laughter, overlays the music throughout. Later, around 1:35, a telephone rings from the front.",
+    "duration": 137.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, considering the pervasive background rhythm, which speaking voice seems to respond to its initial proximity by moving away from its original forward position?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Male speech"
+      }
+    ],
+    "reasoning": "The ambient music provides a continuous background rhythm from the front-right. The caption states that the man's voice 'shifts from too close front to back-left'. This movement indicates a spatial response of moving away from the initial closer position relative to the music.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix007_qa1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix007.wav",
+    "caption": "Music emanates from a close loudspeaker, right and far below, joined by a water tap from not too far behind early on. Later, a man speaks from not too far behind, followed by a woman speaking closely from the back-left, all against the continuous musical background.",
+    "duration": 89.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, after a continuous musical backdrop has been established and an initial voice is heard, which sound source does the subsequent, distinctly closer voice appear to be engaging with? (question_id: q1)\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The earlier male speech."
+      }
+    ],
+    "reasoning": "The female speech ('subsequent, distinctly closer voice') begins immediately after the male speech ('initial voice') concludes its initial segment. Both voices originate from the general 'back' spatial region (male from 'back', female from 'back-left'), indicating a shared conversational space. The temporal proximity and the conversational nature of the interaction strongly suggest the female voice is responding to the male voice, rather than the continuous but spatially distinct music, or the water sound which has ceased.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix007_qa2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix007.wav",
+    "caption": "Music emanates from a close loudspeaker, right and far below, joined by a water tap from not too far behind early on. Later, a man speaks from not too far behind, followed by a woman speaking closely from the back-left, all against the continuous musical background.",
+    "duration": 89.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Considering the duration and presence of all non-speech elements, which prominent and sustained sound forms the backdrop when the first human voice begins to speak? (question_id: q2)\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Music."
+      }
+    ],
+    "reasoning": "Upon listening, the music is present from the very beginning and continues without interruption throughout the entire audio, including when the first human voice (male speech) begins. While a water sound is heard early on, it is not continuous and ceases before the male speech starts. Therefore, the music is the only prominent and sustained non-speech sound forming the continuous backdrop for the male speech.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "002_1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix002.wav",
+    "caption": "A conversation unfolds with a woman speaking close from front-left and a man speaking too close from behind. Domestic sounds are continuous, joined by a bell from close front. Music plays from not too far behind-right, sometimes layered with laughter, creating a bustling domestic scene.",
+    "duration": 105.4,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, when a male voice joins the scene, which existing human voice does his interjection primarily engage with?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "His interjection primarily engages with the existing female speech."
+      }
+    ],
+    "reasoning": "The male speech enters the sound scene shortly after the female speech has been continuous. The male voice's entrance and vocal characteristics suggest a direct conversational turn or response to the preceding female voice. The listener can discern that these two human voices are interacting from different, yet related, positions in the sound field.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "002_2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix002.wav",
+    "caption": "A conversation unfolds with a woman speaking close from front-left and a man speaking too close from behind. Domestic sounds are continuous, joined by a bell from close front. Music plays from not too far behind-right, sometimes layered with laughter, creating a bustling domestic scene.",
+    "duration": 105.4,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, after a brief, cheerful burst from a human voice is heard, what specific type of non-verbal human sound does the male speaker's subsequent vocalization appear to engage with?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The male speaker's vocalization appears to engage with the laughter."
+      }
+    ],
+    "reasoning": "The male speaker's vocalization begins immediately after and slightly overlaps with the distinct occurrence of female laughter. The close temporal proximity and the conversational nature of the male vocalization suggest a direct response or acknowledgement of the laughter. Both the male speaker and the laughter are perceived from the rear sound field, but from discernibly different specific positions.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "002_3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix002.wav",
+    "caption": "A conversation unfolds with a woman speaking close from front-left and a man speaking too close from behind. Domestic sounds are continuous, joined by a bell from close front. Music plays from not too far behind-right, sometimes layered with laughter, creating a bustling domestic scene.",
+    "duration": 105.4,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, following the emergence of a consistent, distinct ringing sound, which non-speech sound does the continuous female voice appear to acknowledge or react to through a subtle shift in her vocalization?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The continuous female voice appears to acknowledge or react to the bell."
+      }
+    ],
+    "reasoning": "The female speech is already ongoing when a series of distinct bell rings begins. The listener can detect a subtle change or emphasis in the female speaker's vocalization (e.g., a pause, a shift in rhythm or tone) that coincides with or immediately follows the bell's appearance, suggesting an acknowledgement. This interaction is underlined by the perceived distinct spatial locations of the ongoing female speech and the bell sound.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix005_Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix005.wav",
+    "caption": "A lively conversation unfolds between two men. One speaker is often close front-right, while the other is generally too far front, occasionally moving to not too far front-left with faint footsteps around 0:10. Their laughter frequently overlaps at various points, creating a dynamic room ambiance.",
+    "duration": 74.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, after one participant's subtle sounds of repositioning conclude, where does their subsequent speech primarily emanate from relative to the other participant's general speaking location?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The speech that follows the subtle repositioning sounds emanates from the front-left, while the other participant's general speaking location remains consistent at the front-right, establishing a clear left-right spatial separation."
+      }
+    ],
+    "reasoning": "The listener perceives 'Walk, footsteps' (Male speech, man speaking/Actor 2) around Frames 83-98, indicating movement from a further 'front' position towards 'front-left' and closer. Immediately after these movements, the 'Male speech, man speaking' (Actor 2) is perceived as originating from the 'front-left' (from Frame 108 onwards). Meanwhile, the 'Male speech, man speaking' (Actor 1) consistently originates from the 'front-right' throughout the relevant periods (e.g., Frames 1-35, 58-79), confirming its primary location.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix005_Q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix005.wav",
+    "caption": "A lively conversation unfolds between two men. One speaker is often close front-right, while the other is generally too far front, occasionally moving to not too far front-left with faint footsteps around 0:10. Their laughter frequently overlaps at various points, creating a dynamic room ambiance.",
+    "duration": 74.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, when simultaneous bursts of mirth occur, how do the origins of these sounds compare?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The simultaneous bursts of mirth originate from distinct spatial points: one from the front-right and the other from the front-left/front, creating a noticeable spatial separation."
+      }
+    ],
+    "reasoning": "Throughout the audio, specifically during periods like Frames 115-126 and 381-391, instances of 'Laughter' from 'Actor 1' and 'Actor 2' occur simultaneously. Audibly, these laughter sources consistently appear from different directions, with one being 'front-right' and the other shifting between 'front' and 'front-left', indicating separate spatial origins rather than a single source.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix005_Q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix005.wav",
+    "caption": "A lively conversation unfolds between two men. One speaker is often close front-right, while the other is generally too far front, occasionally moving to not too far front-left with faint footsteps around 0:10. Their laughter frequently overlaps at various points, creating a dynamic room ambiance.",
+    "duration": 74.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "During a segment where one vocalization continuously holds a somewhat central and distant spatial presence, another vocalization from a distinct, closer location briefly interjects with an expression of amusement. Which type of vocalization provides this brief interjection?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The brief interjection is an instance of laughter."
+      }
+    ],
+    "reasoning": "Around Frames 207-214, 'Male speech, man speaking' (Actor 2) is active from a 'front' position (around 2m distant). Concurrent with this, 'Laughter' (Actor 1) emerges from a different, closer position ('front-right', around 1.6m), creating an overlapping, interjecting sound. This demonstrates the laughter as the brief, amused interjection.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "Q1_A",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix014.wav",
+    "caption": "Background music plays from a not too far source front-left, while a conversation takes place. A man's voice is heard from a close distance behind, and a woman's voice along with laughter emanate from back-left. Later, domestic sounds from a close source right and below, plus a bell from front-right, join the mix.",
+    "duration": 125.6,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In this audio, a male voice engages in conversation while a subtle, recently introduced background activity occurs. Is his dialogue interacting with this distinct background activity, or primarily with the consistent melodic element present throughout?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The male voice is interacting with Domestic sounds."
+      }
+    ],
+    "reasoning": "The male speech (from the back) overlaps with the domestic sounds (from the right and below), which were introduced relatively recently in the audio scene and represent a distinct new activity in the environment. This suggests a more direct interaction with the activity than with the always-present, ambient musical element from the front-left.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "Q2_B",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix014.wav",
+    "caption": "Background music plays from a not too far source front-left, while a conversation takes place. A man's voice is heard from a close distance behind, and a woman's voice along with laughter emanate from back-left. Later, domestic sounds from a close source right and below, plus a bell from front-right, join the mix.",
+    "duration": 125.6,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, as a distinct, sharp percussive sound abruptly joins the overall atmosphere, a male voice can be heard. Is this voice acknowledging the new, immediate ringing event, or is it simply contributing to the continuous background melodic pattern?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The male voice is acknowledging the Bell."
+      }
+    ],
+    "reasoning": "The male speech overlaps directly with the sudden onset of a new, distinct bell sound. Given the abruptness and individual character of the bell, and the spatial separation between the male voice (behind) and the music (front-left), it's more plausible the speaker is responding to the specific new sound from the front-right rather than merely continuing over the ambient music.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "Q3_C",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix014.wav",
+    "caption": "Background music plays from a not too far source front-left, while a conversation takes place. A man's voice is heard from a close distance behind, and a woman's voice along with laughter emanate from back-left. Later, domestic sounds from a close source right and below, plus a bell from front-right, join the mix.",
+    "duration": 125.6,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "As the background musical element continues, a female voice is heard. Is this voice primarily directed toward the consistent musical pattern or interacting with the distinct, persistent sounds of activity occurring from a different direction?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The female voice is interacting with Domestic sounds."
+      }
+    ],
+    "reasoning": "The female speech occurs concurrently with both the constant background music and the ongoing domestic sounds. Given the distinct spatial locations of the female voice (back-left) and the domestic sounds (right and below), and the non-conversational nature implied by the options, it suggests the speaker is reacting to the localized activity rather than the more ambient music.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix013_qa1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix013.wav",
+    "caption": "Music from a loudspeaker, close and mostly front-left, forms the consistent backdrop. A woman speaks from the back-left (close to not too far), and a man from the back and back-left (close). Laughter often mixes with their voices, particularly midway, while domestic sounds are constant. Clapping and a distinct bell, close on the front-right, also emerge.",
+    "duration": 57.2,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, after a sharp, high-pitched signal from one side of the room, which specific vocalization occurs, and from what direction relative to the original source of that signal? (Question ID: qa_1)\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The sharp, high-pitched signal is the Bell. Female speech occurs from the opposite side of the room relative to the bell's location."
+      }
+    ],
+    "reasoning": "The distinct sound of the bell is heard from the front-right of the soundscape. Immediately after this, the female voice begins speaking from the back-left. This clear spatial separation, combined with the immediate temporal succession, indicates the female speaker is reacting or responding to the bell, despite their non-co-located positions.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix013_qa2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix013.wav",
+    "caption": "Music from a loudspeaker, close and mostly front-left, forms the consistent backdrop. A woman speaks from the back-left (close to not too far), and a man from the back and back-left (close). Laughter often mixes with their voices, particularly midway, while domestic sounds are constant. Clapping and a distinct bell, close on the front-right, also emerge.",
+    "duration": 57.2,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, following a bout of distinctive chortling from one general area, which speaking voice responds directly, and from what direction relative to the source of that chortling? (Question ID: qa_2)\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Following the male laughter, the female speech responds directly from the same general area in the back-left."
+      }
+    ],
+    "reasoning": "The male laughter originates from the back-left of the soundscape. Immediately after this, the female voice begins speaking, also from the back-left. This immediate temporal succession and shared perceived spatial location indicate a direct interaction or response between the female speaker and the male laughter.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix001_1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix001.wav",
+    "caption": "Background music plays from a not-too-far loudspeaker in the back-right. A woman speaks from the left and back-left at close to not-too-far distances, sometimes overlapping with a man speaking from the back-left, who is too close to close. Laughter from both speakers occasionally overlays the scene, which seems to be a casual conversation.",
+    "duration": 178.9,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, following a segment where a single male voice is speaking, a new sound enters the scene directly after. What type of sound is this new entry, and from which individual or individuals does it primarily seem to originate, continuing the casual tone of the environment?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The new sound is laughter, and it originates from both the male and female speakers."
+      }
+    ],
+    "reasoning": "The audio first presents a clear segment of male speech. Immediately after this speech concludes, a distinct burst of laughter begins. By discerning that the laughter involves more than one individual and identifying the characteristics of both the male and female voices within that laughter, a listener can infer that both are contributing, suggesting a shared, responsive moment to the preceding male speech. The spatial inference comes from distinguishing the source of the initial speech from the combined sources of the subsequent laughter.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix001_2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix001.wav",
+    "caption": "Background music plays from a not-too-far loudspeaker in the back-right. A woman speaks from the left and back-left at close to not-too-far distances, sometimes overlapping with a man speaking from the back-left, who is too close to close. Laughter from both speakers occasionally overlays the scene, which seems to be a casual conversation.",
+    "duration": 178.9,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, during a continuous stretch of female speaking, another human voice interjects into the conversation. Does this new voice wait for a conversational pause, or does it begin before the first speaker finishes, and from which gender does this interjecting voice originate?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The new voice overlaps with the female speaker, and it originates from a male speaker."
+      }
+    ],
+    "reasoning": "A female voice is distinctly heard speaking. At a certain point, a male voice begins its utterance without the female voice having fully concluded, creating an audible overlap. This overlap, coupled with the differing qualities of the two voices, confirms that the male voice interjects rather than waiting for a pause. The spatial reasoning is embedded in distinguishing these two simultaneously active, but perceptibly separate, speech sources.",
+    "task-type": "Spatial Priority and Source Intent",
+    "dataset": "STARSS23"
+  }
+]

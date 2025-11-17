@@ -1,0 +1,33 @@
+# examples/sft/omni_stage1_freeze_spatial.yaml
+#Full-finetune spatial encoder and projector (LLM frozen)
+model_name_or_path: Qwen/Qwen2.5-Omni-7B
+template: qwen2_omni
+trust_remote_code: true
+flash_attn: fa2
+
+stage: sft
+do_train: true
+finetuning_type: freeze
+
+# <-- KEY: unfreeze towers bucket & select trainable modules
+freeze_vision_tower: false
+thinker.audio_merger: True
+freeze_trainable_layers: 0
+freeze_trainable_modules: thinker.audio_encoder,visual.merger
+
+# data (fill in yours)
+dataset_dir: ./data
+media_dir: ./data
+dataset: spatial_audio_sft
+cutoff_len: 3072
+
+# train
+output_dir: ./saves/omni_stage1_spatial_fullft
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 1e-4
+num_train_epochs: 3
+bf16: true
+logging_steps: 1
+save_steps: 1
+report_to: "none"

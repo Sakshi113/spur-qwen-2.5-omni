@@ -1,0 +1,44 @@
+# ----- model -----
+model_name_or_path: Qwen/Qwen2.5-Omni-7B
+template: qwen2_omni
+trust_remote_code: true
+flash_attn: fa2            # use flash-attn v2 if available
+
+# train the language "thinker" with LoRA; keep encoders frozen
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 8
+lora_target: "all"
+
+# optional freezing choices for multimodal
+freeze_vision_tower: true           # vision tower frozen
+freeze_multi_modal_projector: false # projector trainable (set true if you want it frozen)
+# train_mm_proj_only: false           # set true to ONLY train the projector
+
+# ----- data -----
+dataset_dir: ./data
+media_dir: ./data
+dataset: spatial_audio_sft
+cutoff_len: 3072
+max_samples: 100000
+overwrite_cache: true
+preprocessing_num_workers: 4
+dataloader_num_workers: 4
+
+# ----- training -----
+output_dir: ./saves/qwen2.5-omni-7b/lora/spatial-audio-sft
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 1.0e-4
+num_train_epochs: 3
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+fp16: true
+logging_steps: 10
+save_steps: 500
+save_only_model: false
+report_to: "none"  # or wandb/tensorboard
+
+# ----- misc -----
+ddp_timeout: 180000000

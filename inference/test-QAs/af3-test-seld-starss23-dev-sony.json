@@ -1,0 +1,1541 @@
+[
+  {
+    "id": "fold4_room23_mix002_1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix002.wav",
+    "caption": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, two continuous background sounds are present. Where do the steady background music and the domestic sounds appear to be coming from, and what are their respective approximate distances?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The music comes from the front, approximately 3.92 meters away. The domestic sounds come from the front-right and slightly below, approximately 2.08 meters away."
+      }
+    ],
+    "reasoning": "The metadata for 'Music' consistently shows 'front' at '392 cm (3.92 m)'. The metadata for 'Domestic sounds' consistently shows 'front-right and slightly below' at '208 cm (2.08 m)'.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix002_2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix002.wav",
+    "caption": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Around 14 seconds into the audio, a person's footsteps are heard. From what direction do these footsteps initially sound, and do they seem to be moving closer to or further away from the listener?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The footsteps initially sound from the front-right and far below, and they appear to be moving further away from the listener."
+      }
+    ],
+    "reasoning": "At frame 36, 'Walk, footsteps' is listed at 'front-right and far below' with a distance of '172 cm (1.72 m)'. Subsequent frames (up to frame 51) show the distance increasing (e.g., to '229 cm (2.29 m)'), indicating the source is moving further away.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix002_3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix002.wav",
+    "caption": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "As two men speak throughout the audio, from what general direction are their voices heard? And around 4 minutes and 28 seconds, when laughter is also present, from where does that laughter originate?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Both men's speech is generally heard from the front. When laughter occurs, it also originates from the front."
+      }
+    ],
+    "reasoning": "The metadata for 'Male speech, man speaking' consistently shows the direction as 'front' for both speakers. At frame 428 and onwards, 'Laughter' is also listed with the direction 'front'.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix010_1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix010.wav",
+    "caption": "A conversation unfolds with two speakers. A man's voice comes from the back-left, initially accompanied by his footsteps, at a not too far distance. A woman's voice is heard from the back-left and slightly below, at a close distance, often overlapping with the man. Both individuals occasionally share laughter.",
+    "duration": 72.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, how would you describe the spatial location of the man's voice, and separately, where do his footsteps appear to originate from?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The man's voice comes from the back-left at approximately 1.7 to 2.4 meters away, while his footsteps originate from the back-left and far below, at a distance of approximately 2.3 to 2.9 meters."
+      }
+    ],
+    "reasoning": "The 'Male speech, man speaking' event is localized to 'back-left' at varying distances from 170 cm to 240 cm. The 'Walk, footsteps' event, also associated with the man, is localized to 'back-left and far below' at distances between 230 cm and 290 cm. This distinction in elevation and slight distance variation helps identify them separately.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix010_2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix010.wav",
+    "caption": "A conversation unfolds with two speakers. A man's voice comes from the back-left, initially accompanied by his footsteps, at a not too far distance. A woman's voice is heard from the back-left and slightly below, at a close distance, often overlapping with the man. Both individuals occasionally share laughter.",
+    "duration": 72.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, where is the woman's voice primarily located, considering its direction, elevation, and approximate distance?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The woman's voice is primarily heard from the back-left and slightly below, at a close distance of roughly 1.2 to 1.6 meters."
+      }
+    ],
+    "reasoning": "The 'Female speech, woman speaking' event is consistently localized to 'back-left and slightly below' or 'back and slightly below' at a close distance, ranging from 122 cm to 158 cm.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix010_3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix010.wav",
+    "caption": "A conversation unfolds with two speakers. A man's voice comes from the back-left, initially accompanied by his footsteps, at a not too far distance. A woman's voice is heard from the back-left and slightly below, at a close distance, often overlapping with the man. Both individuals occasionally share laughter.",
+    "duration": 72.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, identify the general direction, elevation, and approximate distance of the laughter that sounds closer to the listener.\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The closer laughter comes from the back-left and slightly below, at a distance of approximately 1.2 to 1.5 meters."
+      }
+    ],
+    "reasoning": "Laughter events are associated with both speakers. The 'Laughter' associated with the woman ('Actor 2') is consistently located at 'back-left and slightly below' or 'back and slightly below' with distances between 126 cm and 150 cm, which is closer than the man's laughter (approximately 1.8m-1.9m).",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "A_1_Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix016.wav",
+    "caption": "Music emanates consistently from a loudspeaker too close back-left and far below. A man's voice, too close to close, speaks from the front-right throughout, occasionally overlapping with a woman's voice, who is close on the right. Both individuals burst into laughter and begin clapping around the 12:30 mark, creating a lively atmosphere.",
+    "duration": 79.8,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, where would you locate the consistent background music?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "It is coming from the back-left and far below, approximately 1 meter away."
+      }
+    ],
+    "reasoning": "The metadata consistently shows 'Music' from 'Non-actor (e.g. loudspeaker)' at 'back-left and far below' with a distance around '107 cm (1.07 m)'.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "A_1_Q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix016.wav",
+    "caption": "Music emanates consistently from a loudspeaker too close back-left and far below. A man's voice, too close to close, speaks from the front-right throughout, occasionally overlapping with a woman's voice, who is close on the right. Both individuals burst into laughter and begin clapping around the 12:30 mark, creating a lively atmosphere.",
+    "duration": 79.8,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, from what direction and approximate distance is the man's speech coming?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The man's speech is originating from the front-right and slightly below, about 1.1 to 1.3 meters away."
+      }
+    ],
+    "reasoning": "The metadata for 'Male speech, man speaking' indicates it is from 'front and slightly below' or 'front-right and slightly below' with distances ranging from '106 cm (1.06 m)' to '135 cm (1.35 m)'.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "A_1_Q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix016.wav",
+    "caption": "Music emanates consistently from a loudspeaker too close back-left and far below. A man's voice, too close to close, speaks from the front-right throughout, occasionally overlapping with a woman's voice, who is close on the right. Both individuals burst into laughter and begin clapping around the 12:30 mark, creating a lively atmosphere.",
+    "duration": 79.8,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Considering the laughter and clapping in the audio, from what general directions and distances are these sounds perceived?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "These sounds are heard from the front-right and the right, approximately 1.1 to 1.7 meters away."
+      }
+    ],
+    "reasoning": "The metadata shows 'Laughter' and 'Clapping' associated with both the male and female speakers. The male's 'Laughter' and 'Clapping' are from 'front-right and slightly below' (approx. 1.06-1.22m), and the female's 'Laughter' and 'Clapping' are from 'right and slightly below' or 'right and far below' (approx. 1.43-1.87m).",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix011_1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix011.wav",
+    "caption": "Footsteps and a man's voice are heard from the back-left. A woman's voice, initially from the back-left, shifts to back-right. Both converse, with laughter overlapping their speech around 0:35 and 0:53. Constant domestic sounds from the back-right complete the scene.",
+    "duration": 63.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, where are the steady background sounds primarily originating from and how far away are they?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The steady background sounds are consistently coming from the back-right, at an approximate distance of 1.94 meters."
+      }
+    ],
+    "reasoning": "The 'Domestic sounds' are consistently listed with 'back-right' direction and '194 cm (1.94 m)' distance in the metadata.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix011_2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix011.wav",
+    "caption": "Footsteps and a man's voice are heard from the back-left. A woman's voice, initially from the back-left, shifts to back-right. Both converse, with laughter overlapping their speech around 0:35 and 0:53. Constant domestic sounds from the back-right complete the scene.",
+    "duration": 63.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, where do the man's voice and his accompanying footsteps seem to come from, and what is their approximate distance?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The man's voice is typically from the back-left or left, ranging from approximately 1.4 to 2.3 meters away. His footsteps are heard from the back-left and far below, at a distance of roughly 2.3 to 2.9 meters."
+      }
+    ],
+    "reasoning": "The 'Male speech, man speaking' is recorded from 'back-left' or 'left' at distances between 140 cm and 233 cm. The 'Walk, footsteps' associated with the man are from 'back-left and far below' at distances between 234 cm and 288 cm.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix011_3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix011.wav",
+    "caption": "Footsteps and a man's voice are heard from the back-left. A woman's voice, initially from the back-left, shifts to back-right. Both converse, with laughter overlapping their speech around 0:35 and 0:53. Constant domestic sounds from the back-right complete the scene.",
+    "duration": 63.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, how would you describe the general direction and distance of the woman's voice, including when her laughter is heard?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The woman's voice and her laughter are mainly heard from the back or back-left and slightly below, at an approximate distance ranging from 1.1 to 1.6 meters."
+      }
+    ],
+    "reasoning": "The 'Female speech, woman speaking' and 'Laughter' (associated with her) are predominantly located at 'back-left and slightly below', 'back', or 'back and slightly below', with distances generally between 111 cm and 160 cm.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "foa_dev-test-sony_fold4_room23_mix011_q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix011.wav",
+    "caption": "The scene is filled with continuous, too far domestic sounds from the front. A person's footsteps move from close to not too far, sometimes overlapping. Midway, a phone rings from not too far in front. Later, a man's speech from not too far front sporadically blends with the domestic ambiance and footsteps.",
+    "duration": 115.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, where does the phone ring, and what is its approximate distance?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The phone rings from the front and slightly below, at an approximate distance of 2.86 meters."
+      }
+    ],
+    "reasoning": "The metadata indicates 'Telephone' sound occurring at 'front and slightly below' with a distance of '286 cm (2.86 m)'.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "foa_dev-test-sony_fold4_room23_mix011_q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix011.wav",
+    "caption": "The scene is filled with continuous, too far domestic sounds from the front. A person's footsteps move from close to not too far, sometimes overlapping. Midway, a phone rings from not too far in front. Later, a man's speech from not too far front sporadically blends with the domestic ambiance and footsteps.",
+    "duration": 115.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, describe the general movement of the footsteps in terms of direction and how their distance changes.\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The footsteps are in front and below, initially moving closer (from approximately 2.7 meters to 1.1 meters), then changing distance, and later becoming a bit further away again."
+      }
+    ],
+    "reasoning": "The metadata shows 'Walk, footsteps' occurring at 'front and far below' or 'front and slightly below', with distances starting around 272 cm (2.72 m), decreasing to around 110 cm (1.10 m), and later reappearing further away around 252 cm (2.52 m) which then decreases again.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "foa_dev-test-sony_fold4_room23_mix011_q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix011.wav",
+    "caption": "The scene is filled with continuous, too far domestic sounds from the front. A person's footsteps move from close to not too far, sometimes overlapping. Midway, a phone rings from not too far in front. Later, a man's speech from not too far front sporadically blends with the domestic ambiance and footsteps.",
+    "duration": 115.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, what is the spatial location of the man speaking, and how does his distance compare to the continuous domestic ambiance?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The man speaking is located in front, approximately 2.9 to 3.2 meters away, which is generally closer than the continuous domestic sounds that are too far in front (around 3.3 to 4.3 meters)."
+      }
+    ],
+    "reasoning": "The metadata indicates 'Male speech, man speaking' at 'front' with distances between 287 cm (2.87 m) and 315 cm (3.15 m). 'Domestic sounds' are consistently from the 'front' or 'front and slightly below/far below' with distances ranging from 334 cm (3.34 m) up to 430 cm (4.30 m) at the beginning, confirming the speech is closer.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix015_1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix015.wav",
+    "caption": "Distant knocks and a door opening, too far away from behind, begin the scene. A man speaks from the back-left, close by, conversing with a woman on the back-right, also close. Their voices frequently overlap, notably around 0:14, 0:27, 0:31, and from 0:38 onwards.",
+    "duration": 72.8,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, what initial sound events are occurring at a distant location directly behind you?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "knocking sounds, followed by a door opening"
+      }
+    ],
+    "reasoning": "The audio begins with distinct distant knocks, immediately followed by the sound of a door opening from the same distant, rear location.",
+    "task-type": "Detection & DoA & DP",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix015_2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix015.wav",
+    "caption": "Distant knocks and a door opening, too far away from behind, begin the scene. A man speaks from the back-left, close by, conversing with a woman on the back-right, also close. Their voices frequently overlap, notably around 0:14, 0:27, 0:31, and from 0:38 onwards.",
+    "duration": 72.8,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, from which specific direction and general distance is the man's voice originating?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "back-left, close by"
+      }
+    ],
+    "reasoning": "The male speech is consistently localized to the back-left and sounds close to the listener throughout the clip.",
+    "task-type": "DoA & DP",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix015_3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix015.wav",
+    "caption": "Distant knocks and a door opening, too far away from behind, begin the scene. A man speaks from the back-left, close by, conversing with a woman on the back-right, also close. Their voices frequently overlap, notably around 0:14, 0:27, 0:31, and from 0:38 onwards.",
+    "duration": 72.8,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, where is the woman's voice positioned relative to you?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "back-right, close by"
+      }
+    ],
+    "reasoning": "The female speech is consistently heard from the back-right, at a close distance from the listener.",
+    "task-type": "DoA & DP",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix008_Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix008.wav",
+    "caption": "A water tap runs from a not-too-far distance behind. Around 43 seconds, music starts from a close loudspeaker, front-right and far below. Towards the end, a woman's voice from behind, and then a man's voice from the back-left, both close, briefly overlap with the music.",
+    "duration": 97.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, how would you describe the location of the steady running water sound?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "It is coming from the back, approximately 2.87 meters away."
+      }
+    ],
+    "reasoning": "The caption states 'A water tap runs from a not-too-far distance behind.' The metadata for 'Water tap, faucet' indicates 'back' at '287 cm (2.87 m)'.",
+    "task-type": "DoA & DP",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix008_Q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix008.wav",
+    "caption": "A water tap runs from a not-too-far distance behind. Around 43 seconds, music starts from a close loudspeaker, front-right and far below. Towards the end, a woman's voice from behind, and then a man's voice from the back-left, both close, briefly overlap with the music.",
+    "duration": 97.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, where does the music originate from?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The music originates from the front-right and far below, at a distance of about 1.31 meters."
+      }
+    ],
+    "reasoning": "The caption mentions 'music starts from a close loudspeaker, front-right and far below.' The metadata for 'Music' confirms 'front-right and far below' at '131 cm (1.31 m)'.",
+    "task-type": "DoA & DP",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix008_Q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix008.wav",
+    "caption": "A water tap runs from a not-too-far distance behind. Around 43 seconds, music starts from a close loudspeaker, front-right and far below. Towards the end, a woman's voice from behind, and then a man's voice from the back-left, both close, briefly overlap with the music.",
+    "duration": 97.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Considering the voices that appear towards the end of the audio, describe the distinct spatial locations of the woman's voice and the man's voice.\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The woman's voice comes from directly behind and close, while the man's voice is from the back-left and also close."
+      }
+    ],
+    "reasoning": "The caption indicates 'a woman's voice from behind, and then a man's voice from the back-left, both close'. The metadata confirms 'Female speech, woman speaking' from 'back' at distances ranging from 1.85m to 0.95m (close), and 'Male speech, man speaking' from 'back-left' at distances ranging from 1.81m to 1.60m (close).",
+    "task-type": "DoA & DP",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "014_1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix014.wav",
+    "caption": "Throughout the recording, music plays from a loudspeaker, located close by behind you and to the right. Domestic sounds are heard from a nearby source front-left. Sporadically, laughter and male speech emerge from directly in front, originating from two distinct individuals at a distance that's not too far.",
+    "duration": 120.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, where is the steady background music playing from and what is its approximate distance?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "back-right and far below; 1.55 m"
+      }
+    ],
+    "reasoning": "The metadata consistently shows 'Music' originating from 'back-right and far below' at a distance of '155 cm (1.55 m)' throughout the recording.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "014_2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix014.wav",
+    "caption": "Throughout the recording, music plays from a loudspeaker, located close by behind you and to the right. Domestic sounds are heard from a nearby source front-left. Sporadically, laughter and male speech emerge from directly in front, originating from two distinct individuals at a distance that's not too far.",
+    "duration": 120.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, where are the domestic sounds located relative to the listener, and how far away are they?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "front-left and far below; 1.71 m"
+      }
+    ],
+    "reasoning": "The metadata indicates 'Domestic sounds' are consistently present from 'front-left and far below' at a distance of '171 cm (1.71 m)'.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "014_3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix014.wav",
+    "caption": "Throughout the recording, music plays from a loudspeaker, located close by behind you and to the right. Domestic sounds are heard from a nearby source front-left. Sporadically, laughter and male speech emerge from directly in front, originating from two distinct individuals at a distance that's not too far.",
+    "duration": 120.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What human vocalizations are heard from directly in front of the listener, and what is their approximate distance range?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Laughter and male speech; approximately 2.7 to 3.3 meters"
+      }
+    ],
+    "reasoning": "The metadata shows 'Laughter' and 'Male speech, man speaking' appearing from 'front' or 'front and slightly below' with distances ranging from '278 cm (2.78 m)' to '329 cm (3.29 m)'.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix010_Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix010.wav",
+    "caption": "Ambient domestic sounds persist from a close, front-left device. Around 0:12, a knock and door sounds from a not too far device right overlap. A person's footsteps move from too far to close right. Midway, two men converse: one from not too far front-left, the other from close right.",
+    "duration": 71.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, where do the consistent ambient domestic sounds originate?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "From a close, front-left and slightly below location, approximately 1.81 meters away."
+      }
+    ],
+    "reasoning": "The metadata indicates 'Domestic sounds' originate from 'front-left and slightly below' at a distance of '181 cm (1.81 m)', which the caption describes as 'close'.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix010_Q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix010.wav",
+    "caption": "Ambient domestic sounds persist from a close, front-left device. Around 0:12, a knock and door sounds from a not too far device right overlap. A person's footsteps move from too far to close right. Midway, two men converse: one from not too far front-left, the other from close right.",
+    "duration": 71.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, from what direction and approximate distance do the distinct knocking and door sounds originate?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "From a not too far location to the right, approximately 2.88 meters away."
+      }
+    ],
+    "reasoning": "The metadata shows 'Knock' and 'Door, open or close' occurring from 'right' at a distance of '288 cm (2.88 m)', which the caption describes as 'not too far'.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix010_Q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix010.wav",
+    "caption": "Ambient domestic sounds persist from a close, front-left device. Around 0:12, a knock and door sounds from a not too far device right overlap. A person's footsteps move from too far to close right. Midway, two men converse: one from not too far front-left, the other from close right.",
+    "duration": 71.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, describe the distinct spatial locations of the two individuals speaking during the conversation.\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "One speaker is from a not too far front-left location, approximately 2.83 meters away. The other speaker is from a close right location, approximately 1.65 meters away."
+      }
+    ],
+    "reasoning": "The metadata indicates two instances of 'Male speech, man speaking': one from 'front-left' at '283 cm (2.83 m)' (described as 'not too far' in caption) and another from 'right' at '165 cm (1.65 m)' (described as 'close' in caption).",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "QA1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix003.wav",
+    "caption": "Music and domestic sounds emanate from a close front-left and distant front-right and slightly below. Two men are conversing, both speaking from the not too far front, with their voices occasionally overlapping throughout the continuous domestic ambience.",
+    "duration": 42.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, how would you describe the location and approximate distance of the steady background ambience?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "It is located at the front-right and slightly below, approximately 1.85 meters away."
+      }
+    ],
+    "reasoning": "The metadata indicates that 'Domestic sounds' are consistently located at 'front-right and slightly below' at a distance of '185 cm (1.85 m)'.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "QA2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix003.wav",
+    "caption": "Music and domestic sounds emanate from a close front-left and distant front-right and slightly below. Two men are conversing, both speaking from the not too far front, with their voices occasionally overlapping throughout the continuous domestic ambience.",
+    "duration": 42.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, from where is the music originating, and how far away is it?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The music is originating from the front-left, approximately 3.42 meters away."
+      }
+    ],
+    "reasoning": "The metadata indicates that 'Music' is consistently located at 'front-left' at a distance of '342 cm (3.42 m)'.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "QA3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix003.wav",
+    "caption": "Music and domestic sounds emanate from a close front-left and distant front-right and slightly below. Two men are conversing, both speaking from the not too far front, with their voices occasionally overlapping throughout the continuous domestic ambience.",
+    "duration": 42.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, from what general direction are the men speaking, and how do their approximate distances compare?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The men are speaking from the front. One speaker is approximately 2.5 meters away, and the other is approximately 3 meters away."
+      }
+    ],
+    "reasoning": "The caption states 'Two men are conversing, both speaking from the not too far front'. The metadata shows two 'Male speech, man speaking' sources, one consistently around 2.5 meters and the other around 3.0 meters, both from the 'front' direction.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix008_Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix008.wav",
+    "caption": "A continuous music source plays from a close distance behind and below. Intermittently, a water tap can be heard from the back-right, not too far away, particularly early on, and then again from around 1:46, and from 5:36.",
+    "duration": 53.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, where does the continuous background sound appear to be coming from and approximately how far away is it?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The continuous background sound is music, originating from back and far below, approximately 1.54 meters away."
+      }
+    ],
+    "reasoning": "The 'Music' sound source is continuously present throughout the audio. Its spatial metadata indicates it is 'back and far below' at a distance of '154 cm (1.54 m)'.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix008_Q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix008.wav",
+    "caption": "A continuous music source plays from a close distance behind and below. Intermittently, a water tap can be heard from the back-right, not too far away, particularly early on, and then again from around 1:46, and from 5:36.",
+    "duration": 53.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, identify the sound that occurs intermittently, and describe its direction and approximate distance when it is heard.\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The intermittent sound is a water tap, which comes from the back-right, approximately 2.95 meters away."
+      }
+    ],
+    "reasoning": "The 'Water tap, faucet' sound is heard intermittently. Its spatial metadata indicates it is at 'back-right' at a distance of '295 cm (2.95 m)'.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix008_Q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix008.wav",
+    "caption": "A continuous music source plays from a close distance behind and below. Intermittently, a water tap can be heard from the back-right, not too far away, particularly early on, and then again from around 1:46, and from 5:36.",
+    "duration": 53.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, which of the two primary sound sources \u2014 the constant music or the occasional plumbing sound \u2014 is perceived to be closer to you?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The constant music is perceived to be closer."
+      }
+    ],
+    "reasoning": "The 'Music' source is located at a distance of 1.54 meters, while the 'Water tap, faucet' is at 2.95 meters. Therefore, the Music is closer.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "Q1_audio_scene_music_location",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix001.wav",
+    "caption": "Throughout the recording, music from a distant loudspeaker in front sets the background for a casual conversation. A man's voice is heard too close on the front-right, occasionally moving closer and slightly to the front-left, while a second man speaks from further away in front. Footsteps are heard from the first speaker early on, and midway through, both men's voices overlap, with the second speaker's laughter also heard.",
+    "duration": 60.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, where does the continuous background music appear to be located, and approximately how far away is it?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The background music is coming from the front, approximately 3.9 meters away."
+      }
+    ],
+    "reasoning": "The metadata consistently identifies 'Music' as originating from 'front' at a distance of '392 cm (3.92 m)' throughout the recording.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "Q2_audio_man1_movement",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix001.wav",
+    "caption": "Throughout the recording, music from a distant loudspeaker in front sets the background for a casual conversation. A man's voice is heard too close on the front-right, occasionally moving closer and slightly to the front-left, while a second man speaks from further away in front. Footsteps are heard from the first speaker early on, and midway through, both men's voices overlap, with the second speaker's laughter also heard.",
+    "duration": 60.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the early part of the audio, how would you describe the starting location and subsequent movement of the man who first begins speaking, including any associated sounds?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The man's voice starts very close, around 0.6 to 0.8 meters away, from the front-right or right. He then shifts towards the front and front-left, moving further away to approximately 2.7 meters. His footsteps are also heard from the front and far below, around 1.9 to 2.4 meters away."
+      }
+    ],
+    "reasoning": "The metadata for 'Male speech, man speaking' (Actor 1) shows initial positions like 'right' and 'front-right' at distances between 61-84 cm. Later, it shifts to 'front' and 'front-left' at distances up to 273 cm. 'Walk, footsteps' (Actor 1) are present early on from 'front and far below' at distances of 189-242 cm.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "Q3_audio_overlapping_speech_laughter",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix001.wav",
+    "caption": "Throughout the recording, music from a distant loudspeaker in front sets the background for a casual conversation. A man's voice is heard too close on the front-right, occasionally moving closer and slightly to the front-left, while a second man speaks from further away in front. Footsteps are heard from the first speaker early on, and midway through, both men's voices overlap, with the second speaker's laughter also heard.",
+    "duration": 60.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "When both men's voices overlap in the middle of the audio, how can you spatially distinguish between the two speakers and the laughter heard?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "One man's voice is closer to the front, around 2.5 to 2.6 meters away. The second man's voice and his laughter originate from further away in front, approximately 3.3 to 3.5 meters distant."
+      }
+    ],
+    "reasoning": "During the overlapping sections (e.g., frames 238-269, 346-349, 540-543, 599-605), the metadata for 'Male speech, man speaking' (Actor 1) consistently shows it being closer (around 255 cm / 2.55 m). Conversely, 'Male speech, man speaking' (Actor 2) and 'Laughter' (Actor 2) are further away (around 330-340 cm / 3.3-3.4 m), both from the front.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix006_Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix006.wav",
+    "caption": "A dynamic conversation unfolds with a man's voice originating from the back-left, at a close to not too far distance. A woman's voice joins from the back-left, sometimes moving to the front, and they frequently overlap. Laughter also emanates from both individuals. Later, a telephone rings from the front-left, with the woman answering, accompanied by faint footsteps.",
+    "duration": 141.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, how do the spatial characteristics of the man's voice compare to those of the woman's voice?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The man's voice consistently comes from the back-left and slightly below, at a closer distance of around 1.2 to 1.3 meters. The woman's voice also originates from the back-left, but generally appears further away, typically around 1.7 to 1.9 meters, and her position sometimes shifts towards the front."
+      }
+    ],
+    "reasoning": "The metadata for 'Male speech, man speaking' shows directions 'back-left and slightly below' with distances ranging approximately from 120 cm to 135 cm. The metadata for 'Female speech, woman speaking' shows directions primarily 'back-left and slightly below' or 'back-left', with initial distances generally ranging from 170 cm to 190 cm, later moving to 'front' (approx. 130-145 cm) and 'left' (approx. 84-111 cm).",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix006_Q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix006.wav",
+    "caption": "A dynamic conversation unfolds with a man's voice originating from the back-left, at a close to not too far distance. A woman's voice joins from the back-left, sometimes moving to the front, and they frequently overlap. Laughter also emanates from both individuals. Later, a telephone rings from the front-left, with the woman answering, accompanied by faint footsteps.",
+    "duration": 141.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, where does the telephone ringing sound come from, and how far away is it?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The telephone ringing originates from the front and far below, at an approximate distance of 1.63 meters."
+      }
+    ],
+    "reasoning": "The metadata for 'Telephone' consistently shows its direction as 'front and far below' and its distance as '163 cm (1.63 m)'.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix006_Q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix006.wav",
+    "caption": "A dynamic conversation unfolds with a man's voice originating from the back-left, at a close to not too far distance. A woman's voice joins from the back-left, sometimes moving to the front, and they frequently overlap. Laughter also emanates from both individuals. Later, a telephone rings from the front-left, with the woman answering, accompanied by faint footsteps.",
+    "duration": 141.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "From where in the environment can you hear the laughter from the individual who sounds further away in the initial conversation?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The laughter from the individual who is initially further away (the woman) emanates from the back-left and slightly below, typically at distances between 1.7 to 1.9 meters."
+      }
+    ],
+    "reasoning": "The caption indicates the woman's voice is initially further away than the man's. The metadata for 'Laughter' associated with 'Actor 2' (female) shows directions like 'back-left and slightly below' or 'back-left', with distances ranging from approximately 160 cm to 197 cm.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix006_qa1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix006.wav",
+    "caption": "A consistent domestic sound, likely a vacuum cleaner, plays continuously, mostly not too far in front. A bell rings from the right early on. Two men converse, one voice not too far in front, the other closer. Midway, front-right footsteps and laughter accompany their conversation.",
+    "duration": 104.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, from what specific direction and approximate distance does the distinct, early chime emanate?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The chime originates from the right and slightly below, approximately 2.77 meters away."
+      }
+    ],
+    "reasoning": "The metadata for 'Bell' indicates it is located at 'right and slightly below' with a distance of '277 cm (2.77 m)' starting from Frame 66.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix006_qa2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix006.wav",
+    "caption": "A consistent domestic sound, likely a vacuum cleaner, plays continuously, mostly not too far in front. A bell rings from the right early on. Two men converse, one voice not too far in front, the other closer. Midway, front-right footsteps and laughter accompany their conversation.",
+    "duration": 104.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, how do the two men's voices spatially relate to each other in terms of distance from the listener?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "One man's voice is consistently closer to the listener (around 1 to 1.5 meters), while the other's voice is generally further away (around 2.5 to 4.3 meters), with both originating from the front."
+      }
+    ],
+    "reasoning": "The metadata indicates two 'Male speech, man speaking' sources. One source ('Actor 2') has distances ranging from approximately 101 cm (1.01 m) to 149 cm (1.49 m) when speaking, and 122 cm (1.22 m) to 140 cm (1.40 m) when laughing. The other source ('Actor 1') has distances ranging from approximately 268 cm (2.68 m) to 425 cm (4.25 m) when speaking, and 289 cm (2.89 m) to 326 cm (3.26 m) when laughing. This confirms one voice is closer and the other is further, both generally from the front.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix006_qa3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix006.wav",
+    "caption": "A consistent domestic sound, likely a vacuum cleaner, plays continuously, mostly not too far in front. A bell rings from the right early on. Two men converse, one voice not too far in front, the other closer. Midway, front-right footsteps and laughter accompany their conversation.",
+    "duration": 104.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, from what direction and approximate distance do you hear the sound of footsteps?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The footsteps are heard from the front-right and far below, around 1.9 to 2.0 meters away."
+      }
+    ],
+    "reasoning": "The metadata for 'Walk, footsteps' indicates its location as 'front-right and far below' with distances ranging from '187 cm (1.87 m)' to '201 cm (2.01 m)'.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix013.wav",
+    "caption": "Music from a close, front-right loudspeaker plays throughout. A bell from a not too far loudspeaker on the right rings intermittently. Around 0:48, a man's voice speaks from the too far front, followed by his laughter around 0:54, both over the continuous music.",
+    "duration": 60.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, how would you describe the location and approximate distance of the continuous background music?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The music is coming from the front-right and slightly below, approximately 1.88 meters away."
+      }
+    ],
+    "reasoning": "The caption and metadata indicate that 'Music' plays throughout from 'front-right and slightly below' at '188 cm (1.88 m)'.",
+    "task-type": "DoA & DP",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix013.wav",
+    "caption": "Music from a close, front-right loudspeaker plays throughout. A bell from a not too far loudspeaker on the right rings intermittently. Around 0:48, a man's voice speaks from the too far front, followed by his laughter around 0:54, both over the continuous music.",
+    "duration": 60.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, from what general direction and distance does the intermittent ringing sound originate?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The ringing sound originates from the right and slightly below, around 2.77 meters away."
+      }
+    ],
+    "reasoning": "The caption and metadata specify that a 'Bell' rings intermittently from the 'right and slightly below' at a distance of '277 cm (2.77 m)'.",
+    "task-type": "DoA & DP",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix013.wav",
+    "caption": "Music from a close, front-right loudspeaker plays throughout. A bell from a not too far loudspeaker on the right rings intermittently. Around 0:48, a man's voice speaks from the too far front, followed by his laughter around 0:54, both over the continuous music.",
+    "duration": 60.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Where is the male speech and subsequent laughter located, and what is its approximate distance from you?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The speech and laughter both come from the front, approximately 3.1 meters away."
+      }
+    ],
+    "reasoning": "The caption and metadata indicate that 'Male speech, man speaking' appears from 'front' at '312 cm (3.12 m)', followed by 'Laughter' from 'front' at '311 cm (3.11 m)'.",
+    "task-type": "DoA & DP",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix004_q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix004.wav",
+    "caption": "Music plays from front-left (too far) and front-right (close) in a domestic setting. Two men converse; one speaks from the front (not too far), the other front (too close), occasionally overlapping. A knock is heard right (not too far) early on, followed by footsteps from the front-right (too close) and laughter midway through.",
+    "duration": 102.2,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, describe the location and distance of the closer musical sound source.\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The closer musical sound source is located front-right and slightly below, at a distance of approximately 1.84 meters."
+      }
+    ],
+    "reasoning": "Based on the metadata, 'Music' from 'front-right and slightly below' at '184 cm (1.84 m)' is present throughout the audio and is explicitly described in the caption as 'close'.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix004_q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix004.wav",
+    "caption": "Music plays from front-left (too far) and front-right (close) in a domestic setting. Two men converse; one speaks from the front (not too far), the other front (too close), occasionally overlapping. A knock is heard right (not too far) early on, followed by footsteps from the front-right (too close) and laughter midway through.",
+    "duration": 102.2,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Where does the distinct knocking sound appear to come from, and how far away is it?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The knocking sound comes from the right, approximately 2.88 meters away."
+      }
+    ],
+    "reasoning": "The metadata for 'Knock' indicates it is located 'right' at '288 cm (2.88 m)'.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix004_q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix004.wav",
+    "caption": "Music plays from front-left (too far) and front-right (close) in a domestic setting. Two men converse; one speaks from the front (not too far), the other front (too close), occasionally overlapping. A knock is heard right (not too far) early on, followed by footsteps from the front-right (too close) and laughter midway through.",
+    "duration": 102.2,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Regarding the two male speakers, what is the initial direction and approximate distance of the speaker who sounds closer?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The initially closer male speaker is located at the front, approximately 1.1 to 1.5 meters away."
+      }
+    ],
+    "reasoning": "The caption mentions one male speaker as 'too close'. Corresponding metadata for 'Male speech, man speaking' shows distances around 113 cm (1.13 m) to 149 cm (1.49 m) from the 'front' at the beginning of their appearance.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "012_q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix012.wav",
+    "caption": "A woman speaks close front-right, while a man's voice is close back-left, occasionally overlapping. Domestic sounds are prominent, shifting from not too far front-right to closer, often accompanying the speech. Later, footsteps are heard from behind and left, with a telephone ringing, not too far back-left.",
+    "duration": 156.8,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, what is the initial approximate direction and distance of the woman's voice?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "front-right, approximately 1.74 meters away."
+      }
+    ],
+    "reasoning": "The woman's voice is initially heard from the front-right at a distance of about 1.74 meters.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "012_q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix012.wav",
+    "caption": "A woman speaks close front-right, while a man's voice is close back-left, occasionally overlapping. Domestic sounds are prominent, shifting from not too far front-right to closer, often accompanying the speech. Later, footsteps are heard from behind and left, with a telephone ringing, not too far back-left.",
+    "duration": 156.8,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Where do you hear the man's voice, and how far away does it sound?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "From back-left and slightly below, approximately 1.70 meters away."
+      }
+    ],
+    "reasoning": "The man's voice is heard from the back-left and slightly below, at a distance of about 1.70 meters.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "012_q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix012.wav",
+    "caption": "A woman speaks close front-right, while a man's voice is close back-left, occasionally overlapping. Domestic sounds are prominent, shifting from not too far front-right to closer, often accompanying the speech. Later, footsteps are heard from behind and left, with a telephone ringing, not too far back-left.",
+    "duration": 156.8,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, from what direction and distance does the sound of the telephone ringing come?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "From back-right and slightly below, approximately 2.37 meters away."
+      }
+    ],
+    "reasoning": "The telephone ringing is heard from the back-right and slightly below, at a distance of about 2.37 meters.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "001",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix003.wav",
+    "caption": "A domestic scene features a woman speaking closely right and a man speaking from a close distance back-left. Their speech often overlaps with domestic background sounds from a front-left non-human source. Occasional distant knocks, door sounds, and a frequent front-left bell are heard.",
+    "duration": 97.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, how would you describe the location of the woman speaking and the steady background sounds?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The woman speaking is located closely right and slightly below, around 1.7 meters away. The steady background sounds are from the front-left and slightly below, approximately 1.7 to 1.8 meters away."
+      }
+    ],
+    "reasoning": "The caption indicates 'a woman speaking closely right' and 'domestic background sounds from a front-left non-human source'. The metadata for 'Female speech, woman speaking' consistently shows 'right and slightly below' at distances primarily between 166-177 cm. The metadata for 'Domestic sounds' consistently shows 'front-left and slightly below' at distances between 172-179 cm.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "002",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix003.wav",
+    "caption": "A domestic scene features a woman speaking closely right and a man speaking from a close distance back-left. Their speech often overlaps with domestic background sounds from a front-left non-human source. Occasional distant knocks, door sounds, and a frequent front-left bell are heard.",
+    "duration": 97.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, from what general direction and distance does the man\u2019s voice emanate, and where is the frequent ringing sound coming from?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The man's voice originates from the back-left, at a close distance of about 1.2 to 2 meters. The frequent ringing sound is from the front-left and far below, around 1.8 meters away."
+      }
+    ],
+    "reasoning": "The caption states 'a man speaking from a close distance back-left' and 'a frequent front-left bell'. The metadata for 'Male speech, man speaking' shows directions like 'back' and 'back-left' with distances varying between 123 cm and 204 cm. The metadata for 'Bell' shows 'front-left and far below' at a consistent distance of about 179 cm.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "003",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix003.wav",
+    "caption": "A domestic scene features a woman speaking closely right and a man speaking from a close distance back-left. Their speech often overlaps with domestic background sounds from a front-left non-human source. Occasional distant knocks, door sounds, and a frequent front-left bell are heard.",
+    "duration": 97.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Can you identify the spatial location of the occasional distant knocking and the door sounds in this scene?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Both the occasional distant knocking and the door sounds are coming from the back, at a distant range of approximately 7 meters."
+      }
+    ],
+    "reasoning": "The caption mentions 'occasional distant knocks, door sounds'. The metadata for both 'Knock' and 'Door, open or close' consistently shows the direction as 'back' and the distance as 702 cm.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix012_Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix012.wav",
+    "caption": "A domestic scene features continuous sounds from a front device, varying in distance. Intermittent footsteps from a person are heard not too far in front. From 1:12, a man speaks, not too far ahead, often overlapping. Midway, a front telephone rings from varied distances, blending in.",
+    "duration": 95.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, what kind of persistent sound is present from the front, and how would you describe its general elevation relative to the listener?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "What: domestic sounds; Where: front; How: generally below or slightly below."
+      }
+    ],
+    "reasoning": "The 'Domestic sounds' are a continuous event originating from the 'front' direction, with metadata consistently indicating 'slightly below' or 'far below' as their elevation.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix012_Q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix012.wav",
+    "caption": "A domestic scene features continuous sounds from a front device, varying in distance. Intermittent footsteps from a person are heard not too far in front. From 1:12, a man speaks, not too far ahead, often overlapping. Midway, a front telephone rings from varied distances, blending in.",
+    "duration": 95.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, where do the intermittent footsteps primarily occur in the environment, and what is their approximate distance range from the listener?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Direction: front and below (ranging from far below to slightly below); Distance: approximately 2.0 to 3.2 meters."
+      }
+    ],
+    "reasoning": "The 'Walk, footsteps' metadata shows the sound source moving in the 'front' area, at varying elevations like 'far below' or 'slightly below', with distances primarily between 197 cm (1.97 m) and 316 cm (3.16 m).",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix012_Q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix012.wav",
+    "caption": "A domestic scene features continuous sounds from a front device, varying in distance. Intermittent footsteps from a person are heard not too far in front. From 1:12, a man speaks, not too far ahead, often overlapping. Midway, a front telephone rings from varied distances, blending in.",
+    "duration": 95.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What specific sound event occurs mid-way through the audio from the front, and what is its approximate distance from the listener?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "What: telephone ringing; Where: front and slightly below; How far: approximately 2.8 to 3.0 meters."
+      }
+    ],
+    "reasoning": "The 'Telephone' sound event appears mid-way through the clip, consistently located at the 'front and slightly below' direction with distances ranging from 284 cm (2.84 m) to 299 cm (2.99 m).",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix004.wav",
+    "caption": "Domestic sounds emanate from close to the front-left. A man's voice and laughter come from close to the front-right. A woman speaks and laughs from too close behind, sometimes overlapping with the man. Knocks are heard, too far from the back and close from the front-left, with a door opening/closing midway, also from the back and front-left.",
+    "duration": 95.1,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, where does that consistent ambient sound originate, and what is its approximate distance?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "front-left and slightly below; approximately 1.8 to 1.9 meters"
+      }
+    ],
+    "reasoning": "The domestic sounds are consistently present at the front-left and slightly below, at a distance ranging from approximately 1.81 to 1.87 meters.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix004.wav",
+    "caption": "Domestic sounds emanate from close to the front-left. A man's voice and laughter come from close to the front-right. A woman speaks and laughs from too close behind, sometimes overlapping with the man. Knocks are heard, too far from the back and close from the front-left, with a door opening/closing midway, also from the back and front-left.",
+    "duration": 95.1,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, how would you describe the location and approximate distance of the man's voice and laughter?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "front-right and slightly below; approximately 1.7 to 1.9 meters"
+      }
+    ],
+    "reasoning": "The male speech and laughter are consistently located at the front-right and slightly below, with distances ranging from approximately 1.65 to 1.91 meters.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix004.wav",
+    "caption": "Domestic sounds emanate from close to the front-left. A man's voice and laughter come from close to the front-right. A woman speaks and laughs from too close behind, sometimes overlapping with the man. Knocks are heard, too far from the back and close from the front-left, with a door opening/closing midway, also from the back and front-left.",
+    "duration": 95.1,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, what are the perceived general direction and distance range for the woman speaking and laughing?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Primarily from behind and slightly below, with her distance varying from approximately 0.8 to 2.8 meters."
+      }
+    ],
+    "reasoning": "The female speech and laughter primarily originate from behind, moving from about 2.83 meters to as close as 0.82 meters, often perceived from slightly below.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix005-Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix005.wav",
+    "caption": "Ambient music emanates from a close loudspeaker, front-right. A woman's voice is heard from the back-left (close), while a man's voice shifts from too close front to back-left (close). Their conversation, punctuated by laughter, overlays the music throughout. Later, around 1:35, a telephone rings from the front.",
+    "duration": 137.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, what is the spatial location and approximate distance of the continuous background music?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The music is coming from the front-right and far below, at approximately 1.45 meters."
+      }
+    ],
+    "reasoning": "The metadata consistently shows 'Music' at 'front-right and far below' at a distance of around '145 cm (1.45 m)'.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix005-Q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix005.wav",
+    "caption": "Ambient music emanates from a close loudspeaker, front-right. A woman's voice is heard from the back-left (close), while a man's voice shifts from too close front to back-left (close). Their conversation, punctuated by laughter, overlays the music throughout. Later, around 1:35, a telephone rings from the front.",
+    "duration": 137.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, describe the change in spatial location and approximate distance of the male voice.\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The male voice initially sounds very close from the front (around 0.5 to 0.7 meters away), then it shifts to the back-left and slightly below, becoming a bit further but still close (approximately 0.7 to 1.4 meters away)."
+      }
+    ],
+    "reasoning": "The metadata for 'Male speech, man speaking' shows an initial presence at 'front' with distances ranging from approximately 49 cm to 69 cm. Later in the audio, the male voice shifts to 'back-left and slightly below' with distances ranging from approximately 71 cm to 140 cm.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix005-Q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix005.wav",
+    "caption": "Ambient music emanates from a close loudspeaker, front-right. A woman's voice is heard from the back-left (close), while a man's voice shifts from too close front to back-left (close). Their conversation, punctuated by laughter, overlays the music throughout. Later, around 1:35, a telephone rings from the front.",
+    "duration": 137.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What is the direction and approximate distance of the telephone ringing sound?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The telephone ringing is heard from the front and far below, at approximately 1.5 meters."
+      }
+    ],
+    "reasoning": "The metadata for 'Telephone' indicates it is located at 'front and far below' at a distance of approximately '152 cm (1.52 m)'.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "music_loc_001",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix007.wav",
+    "caption": "Music emanates from a close loudspeaker, right and far below, joined by a water tap from not too far behind early on. Later, a man speaks from not too far behind, followed by a woman speaking closely from the back-left, all against the continuous musical background.",
+    "duration": 89.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, from what direction and approximate distance is the continuous background music originating?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "right and far below; approximately 1.4 meters"
+      }
+    ],
+    "reasoning": "The metadata indicates 'Music' emanating from 'right and far below' at a distance of '140 cm (1.40 m)' throughout the clip.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "water_tap_loc_001",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix007.wav",
+    "caption": "Music emanates from a close loudspeaker, right and far below, joined by a water tap from not too far behind early on. Later, a man speaks from not too far behind, followed by a woman speaking closely from the back-left, all against the continuous musical background.",
+    "duration": 89.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, where does the sound of the running water appear to come from, and how far away is it?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "back; approximately 2.87 meters"
+      }
+    ],
+    "reasoning": "The metadata shows 'Water tap, faucet' located at 'back' at a distance of '287 cm (2.87 m)' during its presence in the audio.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "female_speech_loc_001",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix007.wav",
+    "caption": "Music emanates from a close loudspeaker, right and far below, joined by a water tap from not too far behind early on. Later, a man speaks from not too far behind, followed by a woman speaking closely from the back-left, all against the continuous musical background.",
+    "duration": 89.0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "When a female voice speaks, from what direction and approximate distance is it heard?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "back-left and slightly below; approximately 1.28 meters"
+      }
+    ],
+    "reasoning": "The metadata for 'Female speech, woman speaking' shows its source at 'back-left and slightly below' at a distance of '128 cm (1.28 m)'.",
+    "task-type": "Spatial Priority & Source Intent Inference",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "ST23_002_1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix002.wav",
+    "caption": "A conversation unfolds with a woman speaking close from front-left and a man speaking too close from behind. Domestic sounds are continuous, joined by a bell from close front. Music plays from not too far behind-right, sometimes layered with laughter, creating a bustling domestic scene.",
+    "duration": 105.4,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, what is the approximate direction and distance of the brief chime you hear?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "front and far below; 1.4 meters"
+      }
+    ],
+    "reasoning": "The metadata indicates a 'Bell' sound from 'front and far below' at a distance of '143 cm (1.43 m)'.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "ST23_002_2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix002.wav",
+    "caption": "A conversation unfolds with a woman speaking close from front-left and a man speaking too close from behind. Domestic sounds are continuous, joined by a bell from close front. Music plays from not too far behind-right, sometimes layered with laughter, creating a bustling domestic scene.",
+    "duration": 105.4,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, where is the male speaker positioned, and approximately how far away is he?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "back and slightly below; approximately 1.1 meters"
+      }
+    ],
+    "reasoning": "The metadata indicates 'Male speech, man speaking' from 'back and slightly below' at distances ranging approximately from '102 cm (1.02 m)' to '120 cm (1.20 m)'.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "ST23_002_3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix002.wav",
+    "caption": "A conversation unfolds with a woman speaking close from front-left and a man speaking too close from behind. Domestic sounds are continuous, joined by a bell from close front. Music plays from not too far behind-right, sometimes layered with laughter, creating a bustling domestic scene.",
+    "duration": 105.4,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Considering the audio, what is the spatial location of the background music?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "back-right and slightly below; 2.0 meters"
+      }
+    ],
+    "reasoning": "The metadata indicates 'Music' from 'back-right and slightly below' at a consistent distance of '201 cm (2.01 m)'.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix005_1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix005.wav",
+    "caption": "A lively conversation unfolds between two men. One speaker is often close front-right, while the other is generally too far front, occasionally moving to not too far front-left with faint footsteps around 0:10. Their laughter frequently overlaps at various points, creating a dynamic room ambiance.",
+    "duration": 74.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, where is the speaker who remains consistently close by located?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The speaker is located front-right, approximately 1.4 to 1.7 meters away."
+      }
+    ],
+    "reasoning": "The metadata for 'Male speech, man speaking' from 'Actor 1' consistently shows a location of 'front-right' with distances ranging from approximately 140 cm (1.4 m) to 174 cm (1.74 m), indicating this speaker is often close and stationary in that direction.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix005_2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix005.wav",
+    "caption": "A lively conversation unfolds between two men. One speaker is often close front-right, while the other is generally too far front, occasionally moving to not too far front-left with faint footsteps around 0:10. Their laughter frequently overlaps at various points, creating a dynamic room ambiance.",
+    "duration": 74.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, describe the location and approximate distance of the faint footsteps heard around the 0:10 mark.\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The faint footsteps originate from the front and far below, then move to the front-left and far below, at an approximate distance of 2.15 to 2.68 meters."
+      }
+    ],
+    "reasoning": "The metadata for 'Walk, footsteps' from 'Actor 2' occurs around frames 83 to 98 (approximately 0:08.3 to 0:09.8), starting from 'front and far below' and transitioning to 'front-left and far below', with recorded distances between 215 cm (2.15 m) and 268 cm (2.68 m).",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix005_3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix005.wav",
+    "caption": "A lively conversation unfolds between two men. One speaker is often close front-right, while the other is generally too far front, occasionally moving to not too far front-left with faint footsteps around 0:10. Their laughter frequently overlaps at various points, creating a dynamic room ambiance.",
+    "duration": 74.3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "When the two individuals share laughter, what are the distinct locations of each person?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "One person is located front-right, approximately 1.5 to 1.7 meters away, while the other person is located front-left, approximately 1.4 to 1.5 meters away."
+      }
+    ],
+    "reasoning": "The metadata for 'Laughter' at frames like 115-126 shows 'Actor 1' laughing from 'front-right' at distances between 157 cm (1.57 m) and 171 cm (1.71 m), and 'Actor 2' laughing from 'front-left' at distances between 146 cm (1.46 m) and 150 cm (1.50 m). This indicates two distinct spatial locations for the laughter.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "music_location_distance_01",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix014.wav",
+    "caption": "Background music plays from a not too far source front-left, while a conversation takes place. A man's voice is heard from a close distance behind, and a woman's voice along with laughter emanate from back-left. Later, domestic sounds from a close source right and below, plus a bell from front-right, join the mix.",
+    "duration": 125.6,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, where is the background music located, and what is its approximate distance?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The background music is located front-left and slightly below, approximately 2.52 meters away."
+      }
+    ],
+    "reasoning": "The metadata consistently identifies 'Music' as being from 'front-left and slightly below' at '252 cm (2.52 m)'.",
+    "task-type": "DoA & DP",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "voices_locations_distances_02",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix014.wav",
+    "caption": "Background music plays from a not too far source front-left, while a conversation takes place. A man's voice is heard from a close distance behind, and a woman's voice along with laughter emanate from back-left. Later, domestic sounds from a close source right and below, plus a bell from front-right, join the mix.",
+    "duration": 125.6,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Considering the conversation in the audio, what are the distinct speaking voices heard and their respective spatial locations and approximate distances?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "A man's voice is heard from back and slightly below, at approximately 1.5 to 1.7 meters. A woman's voice is heard from back-left, at approximately 2 to 2.1 meters, often accompanied by laughter from the same general area."
+      }
+    ],
+    "reasoning": "The metadata indicates 'Male speech, man speaking' from 'back and slightly below' (around 150-170 cm). 'Female speech, woman speaking' and 'Laughter' are from 'back-left' (around 200-218 cm).",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "new_non_speech_sounds_03",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix014.wav",
+    "caption": "Background music plays from a not too far source front-left, while a conversation takes place. A man's voice is heard from a close distance behind, and a woman's voice along with laughter emanate from back-left. Later, domestic sounds from a close source right and below, plus a bell from front-right, join the mix.",
+    "duration": 125.6,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What specific non-speech sounds are introduced later in the audio, and from where do they originate?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Domestic sounds are introduced from the right and far below, at approximately 1.3 to 1.4 meters. A bell sound also joins from the front-right and slightly below, at approximately 1.96 meters."
+      }
+    ],
+    "reasoning": "The caption states \"domestic sounds from a close source right and below, plus a bell from front-right, join the mix.\" The metadata confirms 'Domestic sounds' at 'right and far below' (around 134-147 cm) and 'Bell' at 'front-right and slightly below' (196 cm).",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix013_Q1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix013.wav",
+    "caption": "Music from a loudspeaker, close and mostly front-left, forms the consistent backdrop. A woman speaks from the back-left (close to not too far), and a man from the back and back-left (close). Laughter often mixes with their voices, particularly midway, while domestic sounds are constant. Clapping and a distinct bell, close on the front-right, also emerge.",
+    "duration": 57.2,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, where are the consistent background music and the steady domestic sounds originating from?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The background music is from the front-left and far below, approximately 1.8 to 1.9 meters (179 cm to 191 cm) away. The steady domestic sounds are from the back-right and slightly below, around 1.6 to 1.7 meters (160 cm to 174 cm) away."
+      }
+    ],
+    "reasoning": "Based on analysis of the metadata, the background music (Music) is consistently present at front-left and far below, with distances typically between 179 cm and 191 cm. The domestic sounds (Domestic sounds) are consistently present at back-right and slightly below, with distances typically between 160 cm and 174 cm.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix013_Q2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix013.wav",
+    "caption": "Music from a loudspeaker, close and mostly front-left, forms the consistent backdrop. A woman speaks from the back-left (close to not too far), and a man from the back and back-left (close). Laughter often mixes with their voices, particularly midway, while domestic sounds are constant. Clapping and a distinct bell, close on the front-right, also emerge.",
+    "duration": 57.2,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, what is the location and approximate distance of the distinct bell sound?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The distinct bell sound is located at the front-right and far below, approximately 1.5 meters (153 cm) away."
+      }
+    ],
+    "reasoning": "The distinct bell (Bell) emerges from the front-right and far below, consistently at a distance of approximately 153 cm (1.53 m) in the metadata frames where it occurs.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix013_Q3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix013.wav",
+    "caption": "Music from a loudspeaker, close and mostly front-left, forms the consistent backdrop. A woman speaks from the back-left (close to not too far), and a man from the back and back-left (close). Laughter often mixes with their voices, particularly midway, while domestic sounds are constant. Clapping and a distinct bell, close on the front-right, also emerge.",
+    "duration": 57.2,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the audio, where are the human voices, laughter, and any instances of clapping primarily located, and how far away are they?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The woman's voice and her laughter are mostly from the back-left, around 1.9 to 2.2 meters (189 cm to 217 cm) away. The man's voice, his laughter, and any clapping are closer, from the back or back-left and slightly below, between approximately 1.3 and 1.7 meters (134 cm to 172 cm) away."
+      }
+    ],
+    "reasoning": "The female voice (Female speech, woman speaking) and her laughter (Laughter) are detected at back-left with distances ranging from 189 cm to 217 cm. The male voice (Male speech, man speaking) and his associated laughter or clapping (Laughter, Clapping) are primarily from the back or back-left and slightly below, at closer distances between 134 cm and 172 cm.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix001_1",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix001.wav",
+    "caption": "Background music plays from a not-too-far loudspeaker in the back-right. A woman speaks from the left and back-left at close to not-too-far distances, sometimes overlapping with a man speaking from the back-left, who is too close to close. Laughter from both speakers occasionally overlays the scene, which seems to be a casual conversation.",
+    "duration": 178.9,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on the audio, from what direction and approximate distance is the background music originating?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The music is consistently coming from the back-right and slightly below, at approximately 2.01 meters away."
+      }
+    ],
+    "reasoning": "The metadata indicates 'Music' consistently from 'back-right and slightly below' at '201 cm (2.01 m)'.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix001_2",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix001.wav",
+    "caption": "Background music plays from a not-too-far loudspeaker in the back-right. A woman speaks from the left and back-left at close to not-too-far distances, sometimes overlapping with a man speaking from the back-left, who is too close to close. Laughter from both speakers occasionally overlays the scene, which seems to be a casual conversation.",
+    "duration": 178.9,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In the given audio, from which general direction and approximate distance is the man's voice heard?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The man's speech is primarily heard from the back or back-left and slightly below, at distances ranging from approximately 1.08 meters to 1.51 meters."
+      }
+    ],
+    "reasoning": "The metadata for 'Male speech, man speaking' indicates directions like 'back' and 'back-left and slightly below' with distances between 108 cm and 151 cm.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix001_3",
+    "sound": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix001.wav",
+    "caption": "Background music plays from a not-too-far loudspeaker in the back-right. A woman speaks from the left and back-left at close to not-too-far distances, sometimes overlapping with a man speaking from the back-left, who is too close to close. Laughter from both speakers occasionally overlays the scene, which seems to be a casual conversation.",
+    "duration": 178.9,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Where is the woman's speech primarily localized, and what is her approximate distance?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "The woman's speech is primarily localized to the left or back-left, at a distance ranging from approximately 1.53 meters to 2.53 meters."
+      }
+    ],
+    "reasoning": "The metadata for 'Female speech, woman speaking' indicates directions like 'left' and 'back-left' with distances between 153 cm and 253 cm.",
+    "task-type": "SELD",
+    "dataset": "STARSS23"
+  }
+]

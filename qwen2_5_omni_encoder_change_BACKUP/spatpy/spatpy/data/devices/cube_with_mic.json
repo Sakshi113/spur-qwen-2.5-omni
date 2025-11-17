@@ -1,0 +1,28 @@
+{
+    "kind": "brick",
+    "name": "cube_with_mic",
+    "height": 20.0,
+    "width": 20.0,
+    "depth": 20.0,
+    "mics": {
+        "order": {
+            "matlab": [
+                "top",
+                "bottom"
+            ]
+        },
+        "anchor": "top_left",
+        "position": {
+            "top": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "bottom": [
+                20.0,
+                20.0,
+                20.0
+            ]
+        }
+    }
+}

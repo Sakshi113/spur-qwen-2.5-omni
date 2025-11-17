@@ -1,0 +1,5 @@
+{
+  "spatial_audio_sft_unified_train_only": {
+    "train_file": "train_full.jsonl"
+  }
+}

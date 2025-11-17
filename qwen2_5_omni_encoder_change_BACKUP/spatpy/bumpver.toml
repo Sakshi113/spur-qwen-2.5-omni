@@ -1,0 +1,16 @@
+[bumpver]
+current_version = "2022.1046"
+version_pattern = "YYYY.BUILD"
+commit_message = "[gitlab-ci] bump version to {new_version} [skip ci]"
+commit = true
+tag = true
+push = true
+
+[bumpver.file_patterns]
+"pyproject.toml" = [
+    'version = "{version}"',
+]
+"bumpver.toml" = [
+    'current_version = "{version}"',
+]
+

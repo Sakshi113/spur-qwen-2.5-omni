@@ -1,0 +1,534 @@
+[
+  {
+    "id": "fold4_room23_mix002_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix002.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room23_mix002.mp4",
+    "caption": "Music and domestic sounds from front (too far) and front-right (not too far) loudspeakers. Around 14 seconds, a person's close footsteps approach front-right. Two men speak from varying front distances. Around 4:28, their voices overlap, one also laughing.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which audible event prompts one of the individuals on the sofa to redirect their attention, coinciding with a sudden burst of amusement from another nearby person?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Laughter"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix010_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix010.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix010.mp4",
+    "caption": "A conversation unfolds with two speakers. A man's voice comes from the back-left, initially accompanied by his footsteps, at a not too far distance. A woman's voice is heard from the back-left and slightly below, at a close distance, often overlapping with the man. Both individuals occasionally share laughter.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which other participant's voice or laughter is heard overlapping and seeming to prompt the turning and gesturing motions from the person near the glass door?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Female speech, woman speaking"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix016_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix016.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix016.mp4",
+    "caption": "Music emanates consistently from a loudspeaker too close back-left and far below. A man's voice, too close to close, speaks from the front-right throughout, occasionally overlapping with a woman's voice, who is close on the right. Both individuals burst into laughter and begin clapping around the 12:30 mark, creating a lively atmosphere.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "When the individual in the gray hoodie, visibly present in the front-right area, initiates rhythmic vocal and physical responses contributing to a lively atmosphere, which consistently present auditory source, emanating from a distinct elevation and direction in the room, is the apparent focus of their synchronized actions?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Music"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix009_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix009.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix009.mp4",
+    "caption": "A conversation unfolds with a woman speaking from behind, whose footsteps are heard early on, and a man speaking from the back-left, both at close to not too far distances. Throughout, close domestic sounds emanate from a loudspeaker located back-right, with the woman laughing briefly midway through the conversation.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "As the person in the red shirt moves towards the central seating area, which other individual's approach and communication from a distinct rearward location do they appear to acknowledge?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Female speech, woman speaking, Walk, footsteps"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix011_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix011.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix011.mp4",
+    "caption": "Footsteps and a man's voice are heard from the back-left. A woman's voice, initially from the back-left, shifts to back-right. Both converse, with laughter overlapping their speech around 0:35 and 0:53. Constant domestic sounds from the back-right complete the scene.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which sound source does the person holding the camera appear to track with their movements as a voice navigates the space?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Female speech, woman speaking"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix011_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix011.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room23_mix011.mp4",
+    "caption": "The scene is filled with continuous, too far domestic sounds from the front. A person's footsteps move from close to not too far, sometimes overlapping. Midway, a phone rings from not too far in front. Later, a man's speech from not too far front sporadically blends with the domestic ambiance and footsteps.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "When the individual seated on the yellow couch visibly begins to vocalize, which distinct sound, originating from a closer, lower point in the room, is present, suggesting an implicit acknowledgement from the speaker?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Walk, footsteps"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix015_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix015.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix015.mp4",
+    "caption": "Distant knocks and a door opening, too far away from behind, begin the scene. A man speaks from the back-left, close by, conversing with a woman on the back-right, also close. Their voices frequently overlap, notably around 0:14, 0:27, 0:31, and from 0:38 onwards.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Considering the visible individuals in the shared workspace, which sound source does the person, whose voice originates from the back-left, appear to be engaging with when their speech frequently intermingles with utterances from the back-right of the scene?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Female speech, woman speaking"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix008_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix008.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix008.mp4",
+    "caption": "A water tap runs from a not-too-far distance behind. Around 43 seconds, music starts from a close loudspeaker, front-right and far below. Towards the end, a woman's voice from behind, and then a man's voice from the back-left, both close, briefly overlap with the music.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which audible voice does the central person appear to react to when they pivot from facing a room boundary, shortly before their own speech begins?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Female speech, woman speaking"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix014_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix014.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room23_mix014.mp4",
+    "caption": "Throughout the recording, music plays from a loudspeaker, located close by behind you and to the right. Domestic sounds are heard from a nearby source front-left. Sporadically, laughter and male speech emerge from directly in front, originating from two distinct individuals at a distance that's not too far.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "When one of the individuals in the room engages in both speaking and rhythmic physical activity, what continuous background sound, originating from a different part of the space, does this concurrent behavior appear to acknowledge?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Music"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix010_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix010.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room23_mix010.mp4",
+    "caption": "Ambient domestic sounds persist from a close, front-left device. Around 0:12, a knock and door sounds from a not too far device right overlap. A person's footsteps move from too far to close right. Midway, two men converse: one from not too far front-left, the other from close right.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Who does the individual, whose footsteps traversed a distinct area before they spoke, appear to engage in conversation with, as their voice subsequently joins another's?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Male speech, man speaking"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix003_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix003.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room23_mix003.mp4",
+    "caption": "Music and domestic sounds emanate from a close front-left and distant front-right and slightly below. Two men are conversing, both speaking from the not too far front, with their voices occasionally overlapping throughout the continuous domestic ambience.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "During their visible conversation on the sofa, which continuous ambient sound source, being significantly nearer, might implicitly shape the vocal dynamic of the conversing individuals?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Domestic sounds"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix008_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix008.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room23_mix008.mp4",
+    "caption": "A continuous music source plays from a close distance behind and below. Intermittently, a water tap can be heard from the back-right, not too far away, particularly early on, and then again from around 1:46, and from 5:36.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which sound source does the individual in the background seem to acknowledge when their activity at the table momentarily halts, followed by a brief turn of their head toward the sound's recurring direction?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Water tap, faucet"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix001_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix001.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room23_mix001.mp4",
+    "caption": "Throughout the recording, music from a distant loudspeaker in front sets the background for a casual conversation. A man's voice is heard too close on the front-right, occasionally moving closer and slightly to the front-left, while a second man speaks from further away in front. Footsteps are heard from the first speaker early on, and midway through, both men's voices overlap, with the second speaker's laughter also heard.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Among the visible individuals engaged in conversation, when one person's laughter closely follows the distinct spoken words of another, what is the most probable sound source this laughter is responding to?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Male speech, man speaking"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix006_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix006.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix006.mp4",
+    "caption": "A dynamic conversation unfolds with a man's voice originating from the back-left, at a close to not too far distance. A woman's voice joins from the back-left, sometimes moving to the front, and they frequently overlap. Laughter also emanates from both individuals. Later, a telephone rings from the front-left, with the woman answering, accompanied by faint footsteps.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "When a distinct ringing sound becomes present, what is the individual, whose speech location shifts and whose movement is audible, likely reacting to?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Telephone"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix006_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix006.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room23_mix006.mp4",
+    "caption": "A consistent domestic sound, likely a vacuum cleaner, plays continuously, mostly not too far in front. A bell rings from the right early on. Two men converse, one voice not too far in front, the other closer. Midway, front-right footsteps and laughter accompany their conversation.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "When a distinctive sound suddenly arises from a distant, lower-right area, who does the individual speaking from a forward position seem to address as their words coincide with that unexpected audio event?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Bell"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix013_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix013.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room23_mix013.mp4",
+    "caption": "Music from a close, front-right loudspeaker plays throughout. A bell from a not too far loudspeaker on the right rings intermittently. Around 0:48, a man's voice speaks from the too far front, followed by his laughter around 0:54, both over the continuous music.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "After shifting their attention from their device and initiating speech and then laughter, which consistent auditory rhythm, perceived from a closer frontal direction, does the person appear to be reacting to?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Music"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix004_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix004.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room23_mix004.mp4",
+    "caption": "Music plays from front-left (too far) and front-right (close) in a domestic setting. Two men converse; one speaks from the front (not too far), the other front (too close), occasionally overlapping. A knock is heard right (not too far) early on, followed by footsteps from the front-right (too close) and laughter midway through.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "During the conversation, to which vocal contribution from a proximate speaker does the individual wearing the blue cap and white shirt direct their burst of amusement, as seen in their shared visual setting?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Male speech, man speaking"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix012_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix012.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix012.mp4",
+    "caption": "A woman speaks close front-right, while a man's voice is close back-left, occasionally overlapping. Domestic sounds are prominent, shifting from not too far front-right to closer, often accompanying the speech. Later, footsteps are heard from behind and left, with a telephone ringing, not too far back-left.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "As a person moves through the office, articulating words, which ambient sound source does their concurrent approach and vocalization suggest they are engaging with?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Domestic sounds"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix003_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix003.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix003.mp4",
+    "caption": "A domestic scene features a woman speaking closely right and a man speaking from a close distance back-left. Their speech often overlaps with domestic background sounds from a front-left non-human source. Occasional distant knocks, door sounds, and a frequent front-left bell are heard.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "When the individual seated in the middle of the room, who typically vocalizes from the back-left, momentarily lifts their gaze and shifts their posture towards a distinct, recurring sound originating from a lower, forward position, what are they reacting to?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Bell"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix012_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix012.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room23_mix012.mp4",
+    "caption": "A domestic scene features continuous sounds from a front device, varying in distance. Intermittent footsteps from a person are heard not too far in front. From 1:12, a man speaks, not too far ahead, often overlapping. Midway, a front telephone rings from varied distances, blending in.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Whose presence does the individual on the sofa seem to acknowledge through speech, as movements from a nearby area become audible?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Walk, footsteps"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix004_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix004.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix004.mp4",
+    "caption": "Domestic sounds emanate from close to the front-left. A man's voice and laughter come from close to the front-right. A woman speaks and laughs from too close behind, sometimes overlapping with the man. Knocks are heard, too far from the back and close from the front-left, with a door opening/closing midway, also from the back and front-left.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Considering the evolving proximity of one conversational voice and its temporal overlap with another, whose remarks does the visibly interacting person seem to address?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Male speech, man speaking"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix005_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix005.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix005.mp4",
+    "caption": "Ambient music emanates from a close loudspeaker, front-right. A woman's voice is heard from the back-left (close), while a man's voice shifts from too close front to back-left (close). Their conversation, punctuated by laughter, overlays the music throughout. Later, around 1:35, a telephone rings from the front.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Considering the individual whose voice is heard consistently moving and then occupying a prominent position in the room's foreground, which lingering background sound does their sustained presence in that area suggest they are reacting to?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Music"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix007_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix007.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix007.mp4",
+    "caption": "Music emanates from a close loudspeaker, right and far below, joined by a water tap from not too far behind early on. Later, a man speaks from not too far behind, followed by a woman speaking closely from the back-left, all against the continuous musical background.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "As the man visible near the back of the room shifts his vocal perspective after a nearby voice is heard, to which prior auditory event is his renewed verbal contribution directed?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Female speech, woman speaking"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix002_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix002.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix002.mp4",
+    "caption": "A conversation unfolds with a woman speaking close from front-left and a man speaking too close from behind. Domestic sounds are continuous, joined by a bell from close front. Music plays from not too far behind-right, sometimes layered with laughter, creating a bustling domestic scene.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which distinct auditory source does the individual holding a camera appear to orient towards, as indicated by a subtle shift in their posture and gaze while that sound continues to play?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Music"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room23_mix005_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room23_mix005.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room23_mix005.mp4",
+    "caption": "A lively conversation unfolds between two men. One speaker is often close front-right, while the other is generally too far front, occasionally moving to not too far front-left with faint footsteps around 0:10. Their laughter frequently overlaps at various points, creating a dynamic room ambiance.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "As the person carrying a device visibly approaches, generating faint ground sounds, whose vocal output and subsequent shared laughter does the initially stationary person appear to respond to?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Male speech, man speaking"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix014_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix014.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix014.mp4",
+    "caption": "Background music plays from a not too far source front-left, while a conversation takes place. A man's voice is heard from a close distance behind, and a woman's voice along with laughter emanate from back-left. Later, domestic sounds from a close source right and below, plus a bell from front-right, join the mix.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "As the person in the red shirt pauses and makes a clarifying hand gesture, what non-visible sound source does their implied direction of attention indicate?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Music"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix013_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix013.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix013.mp4",
+    "caption": "Music from a loudspeaker, close and mostly front-left, forms the consistent backdrop. A woman speaks from the back-left (close to not too far), and a man from the back and back-left (close). Laughter often mixes with their voices, particularly midway, while domestic sounds are constant. Clapping and a distinct bell, close on the front-right, also emerge.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which sound source does the individual seated at the table appear to react to when their conversation begins as a distinct tone sounds from an opposing direction?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Bell"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  },
+  {
+    "id": "fold4_room24_mix001_qa1",
+    "audio_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/foa_dev/dev-test-sony/fold4_room24_mix001.wav",
+    "video_path": "/mnt/sandbox/fsaks/spatial_audio/data/STARSS23/video_dev/dev-test-sony/fold4_room24_mix001.mp4",
+    "caption": "Background music plays from a not-too-far loudspeaker in the back-right. A woman speaks from the left and back-left at close to not-too-far distances, sometimes overlapping with a man speaking from the back-left, who is too close to close. Laughter from both speakers occasionally overlays the scene, which seems to be a casual conversation.",
+    "duration": 44.7,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Observing the individual making gestures, as if guiding or highlighting something, which continuous background sound, originating from a different part of the room, do they seem to be indicating?\n<sound>"
+      },
+      {
+        "from": "gpt",
+        "value": "Music"
+      }
+    ],
+    "task-type": "Spatial Priority and Source Intent (Multimodal)",
+    "dataset": "STARSS23"
+  }
+]

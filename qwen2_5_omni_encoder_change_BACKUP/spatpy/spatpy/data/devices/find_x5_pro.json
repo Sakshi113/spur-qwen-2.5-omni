@@ -1,0 +1,32 @@
+{
+    "kind": "stl",
+    "name": "find_x5_pro",
+    "stl_file": "find_x5_pro.stl",
+    "mics": {
+        "order": {
+            "recording": [
+                "bottom",
+                "top",
+                "back"
+            ]
+        },
+        "anchor": "top_left",
+        "position": {
+            "bottom": [
+                26.7,
+                164.2,
+                3.9
+            ],
+            "top": [
+                62.2,
+                -0.5,
+                3.5
+            ],
+            "back": [
+                43.8,
+                30.7,
+                10.8
+            ]
+        }
+    }
+}
